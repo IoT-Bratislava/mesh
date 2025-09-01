@@ -1,7 +1,7 @@
 # 🛜 MeshCore Sieť v Bratislava - Slovakia 
 
 
-## 👉 Aktuálny stav / Current Status
+## <span style="color:green">👉 Aktuálny stav / Current Status</span>
 V Bratislave bežíme na **MeshCore** infraštruktúre, ktorá poskytuje spoľahlivú mesh sieť.  
 Súčasné parametre modulácie (MeshCore radio settings - Default):
 
@@ -13,7 +13,7 @@ Súčasné parametre modulácie (MeshCore radio settings - Default):
 
 ---
 
-## 🚨 Nadchádzajúce zmeny / Upcoming Changes
+## <span style="color:red">🚨 Nadchádzajúce zmeny / Upcoming Changes</span>
 Od **8. septembra 2025** prechádzame na nové jednotné parametre modulácie pre Bratislavský MeshCore:
 
 - Preset: **Slovakia (Narrow) - 869.618MHz / SF8 / BW62.5 / CR8**
