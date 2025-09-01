@@ -3,7 +3,7 @@
 
 ## 👉 Aktuálny stav / Current Status
 V Bratislave bežíme na **MeshCore** infraštruktúre, ktorá poskytuje spoľahlivú mesh sieť.  
-Súčasné parametre modulácie (MeshCore radio settings):
+Súčasné parametre modulácie (MeshCore radio settings - Default):
 
 - Frequency (MHz):  
 - Bandwidth:  
