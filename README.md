@@ -51,7 +51,8 @@ Výhody MeshCore oproti Meshtasticu:
 
 ### 🔗 Ďalšie zdroje / More resources
 - Video návod (EN): [YouTube](https://www.youtube.com/watch?v=t1qne8uJBAc)  
-- Mapa siete: [MeshCore Map](https://map.meshcore.dev/?lat=48.1704&lon=17.1977&zoom=12)  
+- Mapa siete: [MeshCore Map](https://map.meshcore.dev/?lat=48.1704&lon=17.1977&zoom=12)
+- [Využitie mesh sietí v A.R.E.S (Amateur Radio Emergency Service)](https://aresom.wordpress.com/lora-mesh-siete-pre-tiesnovu-komunikaciu-siete-meshtastic-a-meshcore-na-slovensku/)
 
 ### 🔗 Užitočné odkazy / Useful Links
 [👉 useful_links.md](./useful_links.md)
