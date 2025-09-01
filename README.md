@@ -46,7 +46,7 @@ Výhody MeshCore oproti Meshtasticu:
 - Ak chcete pomôcť rozšíriť sieť a máte vhodné miesto pre repeater, ozvite sa nám. Radi pomôžeme s inštaláciou.  
 
 📍 **Stretávame sa každý štvrtok o 17:30** v Rádioklube **Omega (OM5M / OM3KFF)**.  
-📧 Kontakt: ? (predmet: *MeshCore Bratislava*)  
+📧 Kontakt: recrof@gmail.com (predmet: *MeshCore Bratislava*)  
 🌐 Info: [https://om3kff.sk/?lang=sk](https://om3kff.sk/?lang=sk)  
 
 ### 🔗 Ďalšie zdroje / More resources
