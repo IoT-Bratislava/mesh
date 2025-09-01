@@ -5,17 +5,18 @@
 V Bratislave bežíme na **MeshCore** infraštruktúre, ktorá poskytuje spoľahlivú mesh sieť.  
 Súčasné parametre modulácie (MeshCore radio settings - Default):
 
-- Frequency (MHz):  
-- Bandwidth:  
-- Spreading Factor:  
-- Coding Rate:    
+- Preset: **EU/UK (Long Range) - 869.525MHz / SF11 / BW250 / CR5**
+- Frequency (MHz): **869.525 MHz**
+- Bandwidth: **250 kHz**
+- Spreading Factor: **11**
+- Coding Rate: **5**
 
 ---
 
 ## 🚨 Nadchádzajúce zmeny / Upcoming Changes
 Od **8. septembra 2025** prechádzame na nové jednotné parametre modulácie pre Bratislavský MeshCore:
 
-- **869.618 MHz / 62.5 kHz / SF8 / CR8**
+- Preset: **Slovakia (Narrow) - 869.618MHz / SF8 / BW62.5 / CR8**
 - Frequency (MHz): **869.618 MHz**
 - Bandwidth: **62.5 kHz**
 - Spreading Factor:  **8**
