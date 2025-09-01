@@ -49,6 +49,9 @@ Výhody MeshCore oproti Meshtasticu:
 📧 Kontakt: ? (predmet: *MeshCore Bratislava*)  
 🌐 Info: [https://om3kff.sk/?lang=sk](https://om3kff.sk/?lang=sk)  
 
-### Ďalšie zdroje / More resources
+### 🔗 Ďalšie zdroje / More resources
 - Video návod (EN): [YouTube](https://www.youtube.com/watch?v=t1qne8uJBAc)  
 - Mapa siete: [MeshCore Map](https://map.meshcore.dev/?lat=48.1704&lon=17.1977&zoom=12)  
+
+### 🔗 Užitočné odkazy / Useful Links
+[👉 useful_links.md](./useful_links.md)
