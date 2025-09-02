@@ -49,7 +49,7 @@ Pre spoľahlivý chod siete je dôležitá kvalitná anténa, prispôsobená na 
 
 ## 🛡️ Filtre
 
-V mestskom prostredí je veľa rušenia (napr. BTS základňové stanice). Použitie filtrov SAW / dutinkové / cavity filtre pre 868 MHz pásmo výrazne pomáha:
+V mestskom prostredí je veľa rušenia (napr. BTS základňové stanice). Použitie filtrov SAW / dutinkové / cavity filtre pre 868 MHz pásmo výrazne [pomáha](https://pytlicek.github.io/hamradio/filters/index.html):  
 
 - [SAW filter BPF-868MHz](https://www.laskakit.cz/saw-filter-bpf-868mhz/)
 - [AliExpress Dutinkovy 868](https://www.aliexpress.com/item/1005006356979446.html)
