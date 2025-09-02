@@ -32,7 +32,7 @@ Pre technológiu **MeshCore** (aj Meshtastic) sú vhodné rovnaké typy zariaden
   - Podpora WiFi
 
 ### Vhodné na repeater
-- **Seeed Studio SenseCap Solar P1 Pro**
+- **Seeed Studio SenseCap Solar Node P1 Pro**
   - Plne vodotesný obal, vhodný do exteriéru
   - Vstavaný 5W solárny panel
   - Slot na 4 Li-Ion články (volitelná verzia vrátane 18650 článkov)
