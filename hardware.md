@@ -2,33 +2,41 @@
 
 Pre technológiu **MeshCore** (aj Meshtastic) sú vhodné rovnaké typy zariadení. Výber závisí od plánovaného použitia:
 
-- **LilyGo T-Deck Plus**  
-  - All-in-one zariadenie s klávesnicou, batériou a displejom  
-  - Grafické dotykové rozhranie  
-  - GPS a offline mapy (na microSD kartu)  
-
+### Vhodné ako klient (Companion Radio Ble)
 - **Seeed Studio Wio L1 Tracker**  
-  - Pripojenie k mobilu cez Bluetooth  
-  - Kompaktné rozmery  
-  - Výdrž batérie niekoľko dní  
-  - Vstavané GPS  
+  - Kompaktné rozmery
+  - Výdrž batérie niekoľko dní
+  - Vstavané GPS
 
-- **Seeed Studio Xiao nRF52840 + Wio SX1262**  
-  - Využitie na Repeater primárne (nízka spotreba), ale aj klient  
-  - Malé rozmery (s batériou a anténou sa zmestí do krabičky od TicTac)  
-  - Veľmi nízka cena, nízka spotreba  
-  - Použiteľné cez Bluetooth k mobilu aj ako solárny repeater  
+- **LilyGo T-Deck Plus**  
+  - All-in-one zariadenie s klávesnicou, batériou a displejom
+  - Grafické dotykové rozhranie
+  - GPS a offline mapy (na microSD kartu)
+
+### Vhodné ako klient alebo Repeater
+- **Seeed Studio Xiao nRF52840 + Wio SX1262**
+  - Využitie na Repeater primárne (nízka spotreba), ale aj klient
+  - Malé rozmery (s batériou a anténou sa zmestí do krabičky od TicTac)
+  - Veľmi nízka cena, nízka spotreba
+  - Použiteľné cez Bluetooth k mobilu aj ako solárny repeater
+
+- **RAK Wireless RAK4631 + WisBlock**
+  - Využitie na Repeater primárne (nízka spotreba), ale aj klient
+  - Modulárne riešenie s vyššou kvalitou spracovania
+  - Vyššia cena, ale aj vyššia spoľahlivosť a výdrž 
+  - Priama podpora pre solárne panely
 
 - **Heltec Wireless Stick / V3 / Lora32**  
-  - Malé rozmery, bez GPS  
-  - Ideálne pre repeatery alebo statické inštalácie  
-  - Podpora WiFi  
+  - Malé rozmery, bez GPS
+  - Ideálne pre repeatery alebo statické inštalácie
+  - Podpora WiFi
 
-- **RAK Wireless RAK4631 + WisBlock**  
-  - Využitie na Repeater primárne (nízka spotreba), ale aj klient  
-  - Modulárne riešenie s vyššou kvalitou spracovania  
-  - Vyššia cena, ale aj vyššia spoľahlivosť a výdrž  
-  - Priama podpora pre solárne panely  
+### Vhodné na repeater
+- **Seeed Studio SenseCap Solar P1 Pro**
+  - Plne vodotesný obal, vhodný do exteriéru
+  - Vstavaný 5W solárny panel
+  - Slot na 4 Li-Ion články (volitelná verzia vrátane 18650 článkov)
+  - sada na pripevnenie ku stĺpu alebo konzole
 
 ---
 
@@ -41,6 +49,11 @@ Pre technológiu **MeshCore** (aj Meshtastic) sú vhodné rovnaké typy zariaden
 
 Pre spoľahlivý chod siete je dôležitá kvalitná anténa, prispôsobená na pásmo 868 MHz:
 
+### Vhodné na klienta
+- [Gizont 17cm laskakit](https://www.laskakit.cz/antena-flexibilni-10dbi-16-7cm-868mhz/)
+- [Gizont 17cm aliexpress](https://www.aliexpress.com/item/1005004607615001.html)
+
+### Vhodné na repeater
 - [VINNANT Slovakia Y11E-868](https://vinnant.sk/store/page/1?productlist-search=&productlist-sort=created-desc&productlist-categories=868mhz-8695mhz-lorawanheliumflarmsigfox&productlist-tags=&productlist)
 - [Antenna LoRa Fiberglass 8dBi, 858-878MHz ](https://botland.store/antennas/20121-antenna-lora-fiberglass-8dbi-858-878mhz-lenght-130cm-seeedstudio-318020611-5904422362737.html)
 - [MikroTik 868_Omni_antenna](https://wifi-anteny.heureka.sk/mikrotik-868-omni-antenna/#prehlad/)
