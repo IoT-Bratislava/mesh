@@ -34,6 +34,9 @@ Výhody MeshCore oproti Meshtasticu:
 - odolnejšie routovanie správ  
 - menšie zahltenie siete telemetriou  
 
+### 📻 📡 Odporúčané zariadenia / Recommended Devices
+[👉 Odporúčané zariadenia](./hardware.md)
+
 ### Ako prejsť na MeshCore? / How to switch to MeshCore?
 1. Pripojte vaše Meshtastic zariadenie cez USB k počítaču.  
 2. Otvorte [MeshCore Flasher](https://flasher.meshcore.dev) a nahrajte **Companion radio Bluetooth firmware**.  
