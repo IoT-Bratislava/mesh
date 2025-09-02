@@ -22,7 +22,7 @@ Od **8. septembra 2025** prechádzame na nové jednotné parametre modulácie pr
 - Spreading Factor:  **8**
 - Coding Rate: **8**
 
-Tieto parametre zúžia bandwidth čo pomôže v odolnosti proti mestskému zarušeniu.
+Tieto parametre posúvajú frekvenciu kde je menej rušenia a tież zúžia bandwidth čo pomôže v odolnosti proti mestskému zarušeniu.
 
 ---
 
