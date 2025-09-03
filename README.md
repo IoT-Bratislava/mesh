@@ -28,7 +28,9 @@ Tieto parametre posúvajú frekvenciu kde je menej rušenia a tież zúžia band
 
 ## 💡 Informácie o MeshCore v Bratislave / General Info about MeshCore in Bratislava
 Bratislava a okolie už niekoľko mesiacov prevádzkujú **MeshCore** sieť, ktorá nahradila pôvodný Meshtastic.  
-Výhody MeshCore oproti Meshtasticu:
+Na prevádzku LoRa mesh zariadení v ISM (industrial, Scientific, and Medical - celosvetovo) **nieje potrebné mať 📻 Rádioamatérsku licenciu** 👍.  
+
+Výhody MeshCore oproti Meshtasticu a iným LoRa technológiam:
 
 - spoľahlivejšie doručovanie správ  
 - odolnejšie routovanie správ  
