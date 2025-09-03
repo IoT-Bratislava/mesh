@@ -14,6 +14,9 @@ Pre technológiu **MeshCore** (aj Meshtastic) sú vhodné rovnaké typy zariaden
   - GPS a offline mapy (na microSD kartu)
 
 ### Vhodné ako klient alebo Repeater
+
+**💡 Ak staviate repeater viac info nájdete aj tu:** [👉 Stavba Repeater HW/Info](./howto_repeater_build.md)   
+
 - **[Seeed Studio Xiao nRF52840 + Wio SX1262](https://www.aliexpress.com/item/1005008760784706.html)**
   - Využitie na Repeater primárne (nízka spotreba), ale aj klient
   - Malé rozmery (s batériou a anténou sa zmestí do krabičky od TicTac)
