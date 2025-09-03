@@ -30,14 +30,14 @@
 <table style="width:100%; border-collapse:collapse; text-align:center;">
   <tr>
     <td style="width:60%; padding:4px;">
-      <img src="img/XIAO_Solar_Repeater.jpg" alt="XIAO Repeater" style="width:100%; height:350px; object-fit:cover;"/>
+      <img src="img/XIAO_Solar_Repeater.jpg" alt="SenseCap Repeater" style="width:100%; height:350px; object-fit:cover;"/>
     </td>
     <td style="width:40%; padding:4px;">
       <img src="img/DiY_Solar_Repeater.jpg" alt="DiY Repeater" style="width:100%; height:350px; object-fit:cover;"/>
     </td>
   </tr>
   <tr>
-    <td>XIAO all-in-one Repeater</td>
+    <td>SenseCAP Solar Node P1 (all-in-one Repeater)</td>
     <td>DiY Repeater</td>
   </tr>
 </table>
