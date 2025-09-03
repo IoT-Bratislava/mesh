@@ -51,7 +51,7 @@ Sú to:
 
 - **Line of Sight** – výškogram medzi dvoma bodmi na mape – vidíte, či vám nezavadzia hora alebo iná prekážka.  
 - **Map Coverage** – pokrytie priamou vlnou oblasti, kde si prajete mať repeater.  
-- **Neighbors** (v menu repeatera) – ak už máte repeater, v reálnom čase vidíte iné repeatery, ktoré váš repeater počuje, vrátane sily signálu a SNR.
+- **Neighbors** (v menu repeatera) – ak už máte repeater, funkcia vám, ukáže susedné repeatre, ktoré váš repeater počuje, vrátane sily signálu(SNR). Noví susedia sa prdajú vtedy, ked váš repeater začuje od suseda priamy advert.
 
 <table style="width:100%; border-collapse:collapse; text-align:center;">
   <tr>
