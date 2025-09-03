@@ -41,3 +41,33 @@
     <td>DiY Repeater</td>
   </tr>
 </table>
+
+---
+
+### Plánovanie – Pokrytie – Pomôcky
+
+Okrem premerania zarušenia spektra nám pri plánovaní vhodného umiestnenia repeatera pomáhajú aj nástroje priamo v aplikácii (v podmenu **Tools**).  
+Sú to:
+
+- **Line of Sight** – výškogram medzi dvoma bodmi na mape – vidíte, či vám nezavadzia hora alebo iná prekážka.  
+- **Map Coverage** – pokrytie priamou vlnou oblasti, kde si prajete mať repeater.  
+- **Neighbors** (v menu repeatera) – ak už máte repeater, v reálnom čase vidíte iné repeatery, ktoré váš repeater počuje, vrátane sily signálu a SNR.
+
+<table style="width:100%; border-collapse:collapse; text-align:center;">
+  <tr>
+    <td style="width:32%; padding:5px;">
+      <img src="img/App_LineOfSight.jpg" alt="App: Line of Sight" style="width:100%; height:350px; object-fit:cover;"/>
+    </td>
+    <td style="width:32%; padding:5px;">
+      <img src="img/App_AntCoverage.jpg" alt="App: Antenna Coverage" style="width:100%; height:350px; object-fit:cover;"/>
+    </td>
+    <td style="width:32%; padding:5px;">
+      <img src="img/App_Neighbours.jpg" alt="App: Neighbours" style="width:100%; height:350px; object-fit:cover;"/>
+    </td>
+  </tr>
+  <tr>
+    <td>App: Line of Sight</td>
+    <td>App: Antenna Coverage</td>
+    <td>App: Neighbours</td>
+  </tr>
+</table>
