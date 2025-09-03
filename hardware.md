@@ -69,3 +69,4 @@ V mestskom prostredí je veľa rušenia (napr. BTS základňové stanice). Použ
 
 - [SAW filter BPF-868MHz](https://www.laskakit.cz/saw-filter-bpf-868mhz/)
 - [AliExpress Dutinkovy 868](https://www.aliexpress.com/item/1005006356979446.html)
+- [Acasom Cavity 868](https://acasom.com/products/868mhz-cavity-filter-for-helium-network-868m-saw-filter-lora-filter-hnt-filter-863m-filter-high-out-band-rejection)
