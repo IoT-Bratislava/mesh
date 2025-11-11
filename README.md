@@ -11,6 +11,14 @@ V Bratislave bežíme na **MeshCore** infraštruktúre, ktorá poskytuje spoľah
 
 Tieto parametre oproti predvolenému presetu **EU/UK (Long Range)** zúžia bandwidth a posúvajú frekvenciu čo sa prejaví v menšom zarušení a vyššej spolahlivosti.
 
+## Kanály ktoré používame / Channels that we use
+Kedže sme prepojení s Madarskom a Rakúskom, Public kanál je medzinárodny kanál a každá krajina má svoj národný Hashtag kanál.
+Hashtag kanály sa dajú pridat v Hlavnom menu -> Add channel -> Join Hashtag channel
+- **Public** - Predvolnený kanál, na ktorom komunikujeme v angličtine
+- **#slovakia** - Slovenský národný Hashtag kanál
+- **#hungary** - Madarský národný Hashtag kanál
+- **#austria** - Rakúsky národný Hashtag kanál
+- **#ping** - Testovaci kanál kde dostanete od botov odozvu poslanim textu: **ping**
 ---
 
 ## 💡 Informácie o MeshCore v Bratislave / General Info about MeshCore in Bratislava
@@ -44,7 +52,7 @@ Výhody MeshCore oproti Meshtasticu a iným LoRa technológiam:
 
 ### 🔗 Ďalšie zdroje / More resources
 - Video návod (EN): [YouTube](https://www.youtube.com/watch?v=t1qne8uJBAc)  
-- Mapa siete: [MeshCore Map](https://map.meshcore.dev/?lat=48.1704&lon=17.1977&zoom=12)
+- Živá mapa siete: [MeshCore Map](https://mesh.mc868.hu)
 - [Využitie mesh sietí v A.R.E.S (Amateur Radio Emergency Service)](https://aresom.wordpress.com/lora-mesh-siete-pre-tiesnovu-komunikaciu-siete-meshtastic-a-meshcore-na-slovensku/)
 
 ### 🔗 Užitočné odkazy / Useful Links
