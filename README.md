@@ -19,6 +19,7 @@ Hashtag kanály sa dajú pridat v Hlavnom menu -> Add channel -> Join Hashtag ch
 - **#hungary** - Madarský národný Hashtag kanál
 - **#austria** - Rakúsky národný Hashtag kanál
 - **#ping** - Testovaci kanál kde dostanete od botov odozvu poslanim textu: **ping**
+  
 ---
 
 ## 💡 Informácie o MeshCore v Bratislave / General Info about MeshCore in Bratislava
