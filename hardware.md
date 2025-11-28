@@ -3,7 +3,7 @@
 Pre technológiu **MeshCore** (aj Meshtastic) sú vhodné rovnaké typy zariadení. Výber závisí od plánovaného použitia:
 
 ### Vhodné ako klient (Companion Radio Ble)
-- **[Seeed Studio Wio L1 Tracker](https://www.seeedstudio.com/Wio-Tracker-L1-Pro-p-6454.html)** | **[aliexpress](https://www.aliexpress.com/item/1005009580365375.html)**
+- **[Seeed Studio Wio L1 Tracker](https://www.seeedstudio.com/Wio-Tracker-L1-Pro-p-6454.html)** \| **[aliexpress](https://www.aliexpress.com/item/1005009580365375.html)**
   - Kompaktné rozmery
   - Výdrž batérie niekoľko dní
   - Vstavané GPS
@@ -17,19 +17,19 @@ Pre technológiu **MeshCore** (aj Meshtastic) sú vhodné rovnaké typy zariaden
 
 **💡 Ak staviate repeater viac info nájdete aj tu:** [👉 Stavba Repeater HW/Info](./howto_repeater_build.md)   
 
-- **[Seeed Studio Xiao nRF52840 + Wio SX1262](https://www.aliexpress.com/item/1005008760784706.html)** | **[aliexpress](https://www.aliexpress.com/item/1005008760784706.html)**
+- **[Seeed Studio Xiao nRF52840 + Wio SX1262](https://www.seeedstudio.com/XIAO-nRF52840-Wio-SX1262-Kit-for-Meshtastic-p-6400.html)** \| **[aliexpress](https://www.aliexpress.com/item/1005008760784706.html)**
   - Využitie na Repeater primárne (nízka spotreba), ale aj klient
   - Malé rozmery (s batériou a anténou sa zmestí do krabičky od TicTac)
   - Veľmi nízka cena, nízka spotreba
   - Použiteľné cez Bluetooth k mobilu aj ako solárny repeater
 
-- **[RAK Wireless RAK4631 + WisBlock](https://www.aliexpress.com/item/1005006901039995.html)**
+- **[RAK Wireless RAK4631 + WisBlock](https://store.rakwireless.com/products/wisblock-meshtastic-starter-kit)** \| **[aliexpress](https://www.aliexpress.com/item/1005006901039995.html)**
   - Využitie na Repeater primárne (nízka spotreba), ale aj klient
   - Modulárne riešenie s vyššou kvalitou spracovania
   - Vyššia cena, ale aj vyššia spoľahlivosť a výdrž 
   - Priama podpora pre solárne panely
 
-- **[Heltec Wireless Stick / V3 / Lora32](https://www.aliexpress.com/item/1005005443005152.html)**
+- **[Heltec V3](https://heltec.org/project/wifi-kit32-v3/)** \| **[aliexpress](https://www.aliexpress.com/item/1005005443005152.html)**
   - Malé rozmery, bez GPS
   - Ideálne pre repeatery alebo statické inštalácie
   - Podpora WiFi
@@ -65,8 +65,8 @@ Pre spoľahlivý chod siete je dôležitá kvalitná anténa, prispôsobená na 
 
 ## 🛡️ Filtre
 
-V mestskom prostredí je veľa rušenia (napr. BTS základňové stanice). Použitie filtrov SAW / dutinkové / cavity filtre pre 868 MHz pásmo výrazne [pomáha](https://pytlicek.github.io/hamradio/filters/index.html):  
+V mestskom prostredí je veľa rušenia (napr. BTS základňové stanice). Použitie filtrov SAW / dutinkové(cavity) filtre pre 868 MHz pásmo výrazne [pomáha](https://pytlicek.github.io/hamradio/filters/index.html):  
 
-- [SAW filter BPF-868MHz](https://www.laskakit.cz/saw-filter-bpf-868mhz/)
-- [SAW filter BPF-868MHz(AliExpress)](https://www.aliexpress.com/item/1005006356979446.html)
+- [SAW filter BPF-868Mhz - odolny(Aliexpress)](https://www.aliexpress.com/item/1005007538164804.html)
+- [SAW filter BPF-868MHz - mensi(AliExpress)](https://www.aliexpress.com/item/1005006356979446.html)
 - [Acasom Cavity 868](https://acasom.com/products/868mhz-cavity-filter-for-helium-network-868m-saw-filter-lora-filter-hnt-filter-863m-filter-high-out-band-rejection)
