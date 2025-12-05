@@ -53,7 +53,7 @@ Výhody MeshCore oproti Meshtasticu a iným LoRa technológiam:
 
 ### 🔗 Ďalšie zdroje / More resources
 - Video návod (EN): [YouTube](https://www.youtube.com/watch?v=t1qne8uJBAc)  
-- Živá mapa siete: [MeshCore Map](https://mesh.mc868.hu)
+- Živá mapa siete: [MeshCore Map](https://map.mc868.hu)
 - [Využitie mesh sietí v A.R.E.S (Amateur Radio Emergency Service)](https://aresom.wordpress.com/lora-mesh-siete-pre-tiesnovu-komunikaciu-siete-meshtastic-a-meshcore-na-slovensku/)
 
 ### 🔗 Užitočné odkazy / Useful Links
