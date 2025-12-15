@@ -34,7 +34,7 @@ Výhody MeshCore oproti Meshtasticu a iným LoRa technológiam:
 
 ### 📻 📡 Odporúčané zariadenia / Recommended Devices
 [👉 Odporúčané zariadenia](./hardware.md)  
-[👉 Stavba Repeater HW/Info](./howto_repeater_build.md)  
+[👉 Ako na Repeater: HW/Konfiguracia/Info](./howto_repeater_build.md)  
 
 ### Ako prejsť na MeshCore? / How to switch to MeshCore?
 1. Pripojte vaše Meshtastic zariadenie cez USB k počítaču.  
