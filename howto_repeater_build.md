@@ -1,3 +1,4 @@
+# Hardware
 ## ☀️ Solárne Repeatery
 
 💡 Ak má mať mesh sieť v meste dlhodobý zmysel, treba sa zamerať na **energetickú efektivitu** a **odolnosť voči rušeniu**. Zariadenia s **nRF52** čipsetmi (RAK dosky alebo Seeed Xiao) majú nižšiu spotrebu a tým pádom vydržia dlhšie na solárnom napájaní. Pridaním kvalitného solárneho panelu, dostatočnej batérie a dobrej antény získame repeater, ktorý funguje stabilne aj v zimných mesiacoch (kompletne bez potreby výmeny batérií).  
@@ -44,7 +45,25 @@
 
 ---
 
-### Plánovanie – Pokrytie – Pomôcky
+# Konfigurácia
+## Meno repeatra
+
+V Slovenskom meshi máme jednoduché názvoslovie pre všetky repeatre:
+`Core-{Nazov Lokality}` kde `{Nazov Lokality}` moze byt čokolvek od Obce, názvu kopca, alebo iný jasný identifikátor lokality. Prosim vzdy začnite po pomlčke velkým písmenom a nepoužívajte v názve medzery. 
+Všetkym repeatrom prosím uvedte približnú lokalitu, aby sa dali jednoducho používat nástroje ako Neighbours alebo Map trace
+
+## Kolízie ID
+
+Pri prvom štarte repeatra sa často stane že sa vygeneruje ID(prvý bajt) verejného klúča, ktorý sa už v sieti používa. Routing bude daľej fungovať, avšak sťaží to presnú identifikáciu cesty, preto sa odporúča upraviť klúč, aby mal voľné ID. 
+Tu je jednoduchý návod ako odstrániť ID kolíziu:
+1. Pripojte repeater cez usb do počítača.
+2. Navštívte https://map.mc868.hu/config/repeater-setup.html
+3. Dajte connect serial a vyberte serial port, na ktorom je repeater
+4. V sekcii "Private / Public Key" treba kliknúť na tlačítko `[Choose from table]` a vybrať voľné ID
+5. Stlačiť `[Generate]`, počkať kým sa vygeneruje nový privátny kľúč
+6. Stlačiť `[Save & Exit]` a potom `[Reboot]` v hornej sekcii "Info & Actions"
+   
+## Plánovanie – Pokrytie – Pomôcky
 
 Okrem premerania zarušenia spektra nám pri plánovaní vhodného umiestnenia repeatera pomáhajú aj nástroje priamo v aplikácii (v podmenu **Tools**).  
 Sú to:
