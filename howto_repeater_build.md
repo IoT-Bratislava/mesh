@@ -49,8 +49,8 @@
 ## Meno repeatra
 
 V Slovenskom meshi máme jednoduché názvoslovie pre všetky repeatre:
-`Core-{Nazov Lokality}` kde `{Nazov Lokality}` moze byt čokolvek od Obce, názvu kopca, alebo iný jasný identifikátor lokality. Prosim vzdy začnite po pomlčke velkým písmenom a nepoužívajte v názve medzery. 
-Všetkym repeatrom prosím uvedte približnú lokalitu, aby sa dali jednoducho používat nástroje ako Neighbours alebo Map trace
+`Core-{Nazov Lokality}` kde `{Nazov Lokality}` moze byt čokolvek od Obce, názvu kopca, alebo iný jasný identifikátor lokality. Prosim nepoužívajte diakritiku, vzdy začnite po pomlčke velkým písmenom a nepoužívajte v názve medzery. 
+Všetkym repeatrom prosím uvedte približnú polohu, aby sa dali jednoducho používat nástroje ako Neighbours alebo Map trace
 
 ## Kolízie ID
 
