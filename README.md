@@ -1,6 +1,6 @@
-# 🛜 MeshCore Sieť v Bratislava - Slovakia 
+# 🛜 MeshCore Sieť na Slovensku / MeshCore in Slovakia
 
-V Bratislave bežíme na **MeshCore** infraštruktúre, ktorá poskytuje spoľahlivú mesh sieť.  
+Na Slovensku bežíme na **MeshCore** infraštruktúre, ktorá poskytuje spoľahlivú mesh sieť.  
 <span style="color: red">Od 7. 9. 2025 používame parametre modulácie (MeshCore radio settings):</span>
 
 - Preset: **EU/UK (Narrow) - 869.618MHz / SF8 / BW62.5 / CR8**
@@ -23,7 +23,7 @@ Hashtag kanály sa dajú pridat v Hlavnom menu -> Add channel -> Join Hashtag ch
 ---
 
 ## 💡 Informácie o MeshCore v Bratislave / General Info about MeshCore in Bratislava
-Bratislava a okolie už niekoľko mesiacov prevádzkujú **MeshCore** sieť, ktorá nahradila pôvodný Meshtastic.  
+Na Slovensku už niekoľko mesiacov komunita prevádzkuje **MeshCore** sieť, ktorá nahradila pôvodný Meshtastic.  
 Na prevádzku LoRa mesh zariadení v ISM (industrial, Scientific, and Medical - celosvetovo) **nieje potrebné mať 📻 Rádioamatérsku licenciu** 👍.  
 
 Výhody MeshCore oproti Meshtasticu a iným LoRa technológiam:
@@ -48,12 +48,12 @@ Výhody MeshCore oproti Meshtasticu a iným LoRa technológiam:
 - Ak chcete pomôcť rozšíriť sieť a máte vhodné miesto pre repeater, ozvite sa nám. Radi pomôžeme s inštaláciou.  
 
 📍 **Stretávame sa každý štvrtok o 17:30** v Rádioklube **Omega (OM5M / OM3KFF)**.  
-📧 Kontakt: recrof@gmail.com (predmet: *MeshCore Bratislava*)  
+📧 Kontakt: recrof@gmail.com (predmet: *MeshCore Vyzva*)  
 🌐 Info: [https://om3kff.sk/?lang=sk](https://om3kff.sk/?lang=sk)  
 
-### Diskusia
-1. [MeshCore Discord pozvanka](https://discord.gg/PwAMdThdXp)
-2. [Regionalny thread Slovakia - Bratislava](https://discord.com/channels/1343693475589263471/1345309961315680348) 
+### Diskusia + Koordinácia
+1. [MeshCore Discord pozvánka](https://discord.gg/PwAMdThdXp)
+2. [Regionálny thread Slovakia](https://discord.com/channels/1343693475589263471/1345309961315680348) 
 
 ### 🔗 Ďalšie zdroje / More resources
 - Video návod (EN): [YouTube](https://www.youtube.com/watch?v=t1qne8uJBAc)  
