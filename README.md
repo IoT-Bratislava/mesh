@@ -47,18 +47,22 @@ Výhody MeshCore oproti Meshtasticu a iným LoRa technológiam:
 - Ak chcete byť používateľ siete: stačí nahrať firmware a používať aplikáciu.  
 - Ak chcete pomôcť rozšíriť sieť a máte vhodné miesto pre repeater, ozvite sa nám. Radi pomôžeme s inštaláciou.  
 
-📍 **Stretávame sa každý štvrtok o 17:30** v Rádioklube **Omega (OM5M / OM3KFF)**.  
-📧 Kontakt: recrof@gmail.com (predmet: *MeshCore Vyzva*)  
-🌐 Info: [https://om3kff.sk/?lang=sk](https://om3kff.sk/?lang=sk)  
-
 ### Diskusia + Koordinácia
 1. [MeshCore Discord pozvánka](https://discord.gg/PwAMdThdXp)
 2. [Regionálny thread Slovakia](https://discord.com/channels/1343693475589263471/1345309961315680348) 
+
+### Stretnutia
+- **Stretávame sa každý štvrtok o 17:30** v Bratislave, Rádioklube **Omega (OM5M / OM3KFF)**.
+- Adresa: Staré Grunty 53 v Mlynskej doline, bloky A/B. Je to tá budova s veľkými anténami na streche
+- Web: [https://om3kff.sk/?lang=sk](https://om3kff.sk/?lang=sk)  
+  <img src="https://om3kff.sk/wp-content/uploads/2013/03/mapa_pristup2_small.gif" alt="pristup" style="width:100%; height:350px; object-fit:cover;"/>
+
 
 ### 🔗 Ďalšie zdroje / More resources
 - Video návod (EN): [YouTube](https://www.youtube.com/watch?v=t1qne8uJBAc)  
 - Živá mapa siete: [MeshCore Map](https://map.mc868.hu)
 - [Využitie mesh sietí v A.R.E.S (Amateur Radio Emergency Service)](https://aresom.wordpress.com/lora-mesh-siete-pre-tiesnovu-komunikaciu-siete-meshtastic-a-meshcore-na-slovensku/)
+- Email Kontakt: recrof@gmail.com (predmet: *MeshCore Vyzva*)  
 
 ### 🔗 Užitočné odkazy / Useful Links
 [👉 useful_links.md](./useful_links.md)
