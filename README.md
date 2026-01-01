@@ -51,6 +51,10 @@ Výhody MeshCore oproti Meshtasticu a iným LoRa technológiam:
 📧 Kontakt: recrof@gmail.com (predmet: *MeshCore Bratislava*)  
 🌐 Info: [https://om3kff.sk/?lang=sk](https://om3kff.sk/?lang=sk)  
 
+### Diskusia
+1. [MeshCore Discord pozvanka](https://discord.gg/PwAMdThdXp)
+2. [Regionalny thread Slovakia - Bratislava](https://discord.com/channels/1343693475589263471/1345309961315680348) 
+
 ### 🔗 Ďalšie zdroje / More resources
 - Video návod (EN): [YouTube](https://www.youtube.com/watch?v=t1qne8uJBAc)  
 - Živá mapa siete: [MeshCore Map](https://map.mc868.hu)
