@@ -22,7 +22,7 @@ Hashtag kanály sa dajú pridat v Hlavnom menu -> Add channel -> Join Hashtag ch
   
 ---
 
-## 💡 Informácie o MeshCore v Bratislave / General Info about MeshCore in Bratislava
+## 💡 Informácie o MeshCore na Slovensku / General Info about MeshCore in Slovakia
 Na Slovensku už niekoľko mesiacov komunita prevádzkuje **MeshCore** sieť, ktorá nahradila pôvodný Meshtastic.  
 Na prevádzku LoRa mesh zariadení v ISM (industrial, Scientific, and Medical - celosvetovo) **nieje potrebné mať 📻 Rádioamatérsku licenciu** 👍.  
 
