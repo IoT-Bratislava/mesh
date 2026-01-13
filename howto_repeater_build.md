@@ -49,9 +49,9 @@
 ## Meno repeatra
 
 V Slovenskom meshi máme jednoduché názvoslovie pre všetky repeatre:
-`SK-{Okres}-{Nazov Lokality}` kde `{Okres}` je dvojpismenny kód okresu(BA, BB, KE, PP...) a `{Nazov Lokality}` moze byt čokolvek od Obce, názvu kopca, alebo iný jasný identifikátor lokality. Prosim nepoužívajte diakritiku, vzdy začnite po pomlčke velkým písmenom a nepoužívajte v názve medzery. 
+`SK-{Okres}-{Nazov-Lokality}` kde `{Okres}` je dvojpismenny kód okresu(BA, BB, KE, PP...) a `{Nazov-Lokality}` moze byt čokolvek od Obce, názvu kopca, alebo iný jasný identifikátor lokality. Prosim nepoužívajte diakritiku, vzdy začnite po pomlčke velkým písmenom a nepoužívajte v názve medzery. 
 
-Priklad: `SK-BA-Ostredky` alebo `SK-BS-Sitno`
+Priklad: `SK-SC-Nova-Dedinka` alebo `SK-BS-Sitno`
 
 Všetkym repeatrom prosím uvedte približnú polohu, aby sa dali jednoducho používat nástroje ako Neighbours alebo Map trace
 
