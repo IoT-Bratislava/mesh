@@ -8,12 +8,12 @@
 ---
 
 ### 🔨 DIY Boxed Solar Build
-- **Radio:** [AliExpress](https://www.aliexpress.com/item/1005006901039995.html)  
+- **Radio:** [RAK 4631](https://www.aliexpress.com/item/1005006901039995.html)  
 - **Solar Panel:** [Soshine 6V/6W](https://www.fotoextra.cz/soshine-mini-solar-panel-6v-6w.html)  
-- **Battery:** [Li-Pol 10000 mAh](https://techfun.sk/produkt/li-pol-bateria-kablik-ochranny-obvod/?attribute_pa_bateria=1260110-10000-mah)  
-- **Filter:** [SAW Filter 868 MHz](https://www.laskakit.cz/saw-filter-bpf-868mhz/)  
-- **Box:** [Install box](https://www.gme.sk/v/1511573/u-01-18-instalacna-krabica)  
-- **Cable Glands (2x):** [IP68](https://techfun.sk/produkt/prechodky-pre-kable-biele-rozne-velkosti-ip68/?attribute_pa_variant=m161-5)  
+- **Battery:** [Li-Pol 10000 mAh (protected)](https://techfun.sk/produkt/li-pol-bateria-kablik-ochranny-obvod/?attribute_pa_bateria=1260110-10000-mah)  
+- **Filter:** [SAW 868 MHz](https://www.aliexpress.com/item/1005007538164804.html)  
+- **Box:** [U-01-18](https://www.gme.sk/v/1511573/u-01-18-instalacna-krabica)  
+- **Cable Glands (2x):** [M16*1.5 IP68](https://techfun.sk/produkt/prechodky-pre-kable-biele-rozne-velkosti-ip68/?attribute_pa_variant=m161-5)  
 - **Self-vulcanizing tape:** [EMOS 19mm/10m](https://www.cbelektro.sk/izolacna-paska-samovulkanizacna-19mm-10m-cierna-emos-p264892)  
 - **Antenna:** [MikroTik Omni 868 MHz 6.5 dBi](https://www.wellnet.sk/en/mikrotik-868_omni_antenna-lora--6-5dbi--824-960mhz/)  
 
