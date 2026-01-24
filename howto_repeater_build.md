@@ -53,7 +53,9 @@ V Slovenskom meshi máme jednoduché názvoslovie pre všetky repeatre:
 
 Priklad: `SK-SC-Nova-Dedinka` alebo `SK-BS-Sitno`
 
-Všetkym repeatrom prosím uvedte približnú polohu, aby sa dali jednoducho používat nástroje ako Neighbours alebo Map trace
+Všetkym repeatrom prosím uvedte približnú polohu, aby sa dali jednoducho používat nástroje ako Neighbours alebo Map trace.
+
+**Prosim nepoužívajte toto názvoslovie pri klientoch - matie to užívateľov**
 
 ## Kolízie ID
 
