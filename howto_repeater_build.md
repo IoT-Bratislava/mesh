@@ -15,7 +15,7 @@
 - **Box:** [U-01-18](https://www.gme.sk/v/1511573/u-01-18-instalacna-krabica)  
 - **Cable Glands (2x):** [M16*1.5 IP68](https://techfun.sk/produkt/prechodky-pre-kable-biele-rozne-velkosti-ip68/?attribute_pa_variant=m161-5)  
 - **Self-vulcanizing tape:** [EMOS 19mm/10m](https://www.cbelektro.sk/izolacna-paska-samovulkanizacna-19mm-10m-cierna-emos-p264892)  
-- **Antenna:** [MikroTik Omni 868 MHz 6.5 dBi](https://www.wellnet.sk/en/mikrotik-868_omni_antenna-lora--6-5dbi--824-960mhz/)  
+- **Antenna:** [MikroTik Omni 868 MHz 6.5 dBi](https://wifi-anteny.heureka.sk/mikrotik-868-omni-antenna/)  
 
 ---
 
