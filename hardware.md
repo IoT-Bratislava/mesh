@@ -57,9 +57,9 @@ Pre spoľahlivý chod siete je dôležitá kvalitná anténa, prispôsobená na 
 - [Gizont 17cm aliexpress](https://www.aliexpress.com/item/1005004607615001.html)
 
 ### Vhodné na repeater
+- [MikroTik 868_Omni_antenna](https://wifi-anteny.heureka.sk/mikrotik-868-omni-antenna/)
 - [VINNANT Slovakia Y11E-868](https://vinnant.sk/store/page/1?productlist-search=&productlist-sort=created-desc&productlist-categories=868mhz-8695mhz-lorawanheliumflarmsigfox&productlist-tags=&productlist)
 - [Antenna LoRa Fiberglass 8dBi, 858-878MHz ](https://botland.store/antennas/20121-antenna-lora-fiberglass-8dbi-858-878mhz-lenght-130cm-seeedstudio-318020611-5904422362737.html)
-- [MikroTik 868_Omni_antenna](https://wifi-anteny.heureka.sk/mikrotik-868-omni-antenna/#prehlad/)
 
 ---
 
