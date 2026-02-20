@@ -18,7 +18,6 @@ Hashtag kanály sa dajú pridat v Hlavnom menu -> Add channel -> Join Hashtag ch
 - **#slovakia** - Slovenský národný Hashtag kanál
 - **#hungary** - Madarský národný Hashtag kanál
 - **#austria** - Rakúsky národný Hashtag kanál
-- **#ping** - Testovaci kanál kde dostanete od botov odozvu poslanim textu: **ping**
   
 ---
 
