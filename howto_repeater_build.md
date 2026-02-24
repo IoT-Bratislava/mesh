@@ -50,7 +50,7 @@
 
 V Slovenskom meshi máme jednoduché názvoslovie pre všetky repeatre:
 `SK-{Okres}-{Nazov-Lokality}` kde `{Okres}` je dvojpismenny kód okresu a `{Nazov-Lokality}` moze byt čokolvek od Obce, názvu kopca, alebo iný jasný identifikátor lokality. Prosim nepoužívajte diakritiku, vzdy začnite po pomlčke velkým písmenom a nepoužívajte v názve medzery. 
-Zoznam skratiek okresov najdete tu: https://lstn.juls.savba.sk/minfo/skratky-okresy.
+Pre referenciu môžťe pozrieť aj [zoznam skratiek okresov](https://lstn.juls.savba.sk/minfo/skratky-okresy).
 
 Priklad: `SK-SC-Nova-Dedinka` alebo `SK-BS-Sitno`
 
@@ -62,7 +62,7 @@ Všetkym repeatrom prosím uvedte približnú polohu, aby sa dali jednoducho pou
 
 Regióny slúžia na izoláciu flood prevádzky do vačších alebo menších segmentov. 
 Dnes ich možme použit napríklad na regionálne kanály, ktoré, ak sú nastavené správne, vedia držať flood prevádzku len v jednej lokalite.
-Pre hlavný slovenský región sme vybrali značku `sk`, ostatné regiony majú formát `sk-{okres}`. Zoznam skratiek okresov najdete tu: https://lstn.juls.savba.sk/minfo/skratky-okresy. značky sú zadávané vždy malými pismenami.
+Pre hlavný slovenský región sme vybrali značku `sk`, ostatné regiony majú formát `sk-{okres}`. Zoznam skratiek okresov [najdete tu](https://lstn.juls.savba.sk/minfo/skratky-okresy). značky sú zadávané vždy malými pismenami.
 
 Tu je príklad nastavenia regiónov na jednom z repeatrov:
 
@@ -77,7 +77,7 @@ Napríklad kanálu #slovakia sa ešte neodporúča nastavenie regiónu `sk`, ked
 Pri prvom štarte repeatra sa často stane, že sa vygeneruje ID(prvý bajt) verejného klúča, ktorý sa už v sieti používa. Routing bude daľej fungovať, avšak sťaží to presnú identifikáciu cesty, preto sa odporúča upraviť klúč, aby používal voľné ID. 
 Tu je jednoduchý návod ako odstrániť ID kolíziu. Na zmenu ID na repeatri je potrebný aspoň firmware vo verzii 1.12.0:
 
-1. Na stránke https://map.mc868.hu/collision.php je vidno všetky voľné ID zelenou farbou - jedno si vyberte.
+1. Na [EmpireMesh stránke pre ID kolízie](https://map.mc868.hu/collision.php) je vidno všetky voľné ID zelenou farbou - jedno si vyberte.
 2. Po prihlásení na repeater cez MeshCore App choďte do `Settings` > `Change Identity Key`.
 3. Kliknite na `Choose prefix` a zadajte voľné ID z prvého kroku a dajte `OK`.
 4. Odzálohujte si nový verejný a súkromný kľúč, keby ho v budúcnosti trebalo obnoviť.
@@ -89,14 +89,14 @@ Tu je jednoduchý návod ako odstrániť ID kolíziu. Na zmenu ID na repeatri je
 ### Repeatre s čipom nRF52 (Bluetooth)
 Medzi tieto zariadenia patrí napríklad: RAK 4631, Seeed Studio Xiao nRF52840, Sensecap Solar P1, Heltec t114...
 
-Pred tým ako sa pokúsite o vzdialenú aktualizáciu, veľmi odporúčame zmeniť bootloader na OTAFIX(verzia 2.1 a vyssie), ktorú nájdete na: https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX/releases
+Pred tým ako sa pokúsite o vzdialenú aktualizáciu, veľmi odporúčame zmeniť bootloader na [OTAFIX(verzia 2.1 a vyssie)](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX/releases). 
 Na Upgrade bootloadera je potrebné byt pripojený na repeater cez USB kábel.
 
 Stačí stiahnuť UF2 súbor pre zariadenie, ktoré chcete aktualizovat, dvoj-kliknut tlacidlo RESET, ktoré by malo otvorit USB disk, do ktorého treba nahrať stiahnutý UF2 subor.
 Po dokončení kopírovania a zmiznutí USB disku je bootloader aktualizovaný a možťe si overit či sa správne aktualizoval pomocou opatovného dvoj-kliku a nasledneho prečítania súboru `INFO_UF2.TXT`, v ktorom by sa mal nachádzat retazec OTAFIX s verziou.
 
-1. Stiahnite si aplikáciu nRF DFU: Android: https://play.google.com/store/apps/details?id=no.nordicsemi.android.dfu alebo iPhone: https://apps.apple.com/us/app/nrf-device-firmware-update/id1624454660
-2. Na stránke https://flasher.meshcore.dev vyberte zariadenie, ktoré chcete aktualizovať, vyberte `Repeater`, stlačte tlačidlo Download a vyberte súbor s príponou `.zip`
+1. Stiahnite si aplikáciu nRF DFU: [Android Play Store](https://play.google.com/store/apps/details?id=no.nordicsemi.android.dfu), alebo [Apple App Store](https://apps.apple.com/us/app/nrf-device-firmware-update/id1624454660). 
+2. Na [stránke flashera](https://flasher.meshcore.dev) vyberte zariadenie, ktoré chcete aktualizovať, vyberte `Repeater`, stlačte tlačidlo Download a vyberte súbor s príponou `.zip`
 3. V aplikácii MeshCore sa prihláste do repeatera, ktorý chcete aktualizovať
 4. Prejdite na záložku `Command Line`, napíšte: `start ota` a potvrdte
 5. Mali by ste vidieť odpoveď OK, ktorá potvrdzuje, že zariadenie je teraz v OTA režime. Ak neprišla žiadna odpoveď, pošlite príkaz `start ota` znova
@@ -114,7 +114,7 @@ Po dokončení kopírovania a zmiznutí USB disku je bootloader aktualizovaný a
 ### Repeatre s čipom ESP32
 Medzi tieto zariadenia patrí napríklad: Heltec v3, v4, WSL3, Seeed Studio Xiao ESP32(s3/c3/c6..), 
 
-1. Na stránke https://flasher.meshcore.dev vyberte zariadenie, ktoré chcete aktualizovať, vyberte `Repeater`, stlačte tlačidlo Download a vyberte súbor s príponou `.bin`, ktorý nemá v názve `merged`
+1.  Na [stránke flashera](https://flasher.meshcore.dev) vyberte zariadenie, ktoré chcete aktualizovať, vyberte `Repeater`, stlačte tlačidlo Download a vyberte súbor s príponou `.bin`, ktorý nemá v názve `merged`
 3. V aplikácii MeshCore sa prihláste do repeatera, ktorý chcete aktualizovať
 4. Prejdite na záložku `Command Line`, napíšte: `start ota` a potvrdte
 5. Mali by ste vidieť odpoveď OK, ktorá potvrdzuje, že zariadenie je teraz v OTA režime. Ak neprišla žiadna odpoveď, pošlite príkaz `start ota` znova
