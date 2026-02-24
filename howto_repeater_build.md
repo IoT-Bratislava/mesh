@@ -46,6 +46,14 @@
 ---
 
 # Konfigurácia
+
+## Odporúčané nastavenia
+
+1. Je vhodné nastaviť `Flood Advert Interval` na 23h az 48h, aby sme znížili zaťaženie siete velkými redundantnými packetmi
+2. Nastavením `Coding Rate` na `5` znížime airtime skoro na polovicu.
+3. Vyplnením `Owner Info` dáme možnost ostatným kontaktovať majiteľa repeatra a tak možnost spoločne koordinovat zmeny v sieti.
+4. Odporúčané je tiež vypnut `guest` heslo, aby užívateľ mal prístup ku štatistikám, `Neighbours` a `Owner Info`
+
 ## Meno repeatra
 
 V Slovenskom meshi máme jednoduché názvoslovie pre všetky repeatre:
