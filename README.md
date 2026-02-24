@@ -7,7 +7,7 @@ Na Slovensku bežíme na **MeshCore** infraštruktúre, ktorá poskytuje spoľah
 - Frequency (MHz): **869.618 MHz**
 - Bandwidth: **62.5 kHz**
 - Spreading Factor:  **8**
-- Coding Rate: **8**
+- Coding Rate: **5**
 
 Tieto parametre oproti predvolenému presetu **EU/UK (Long Range)** zúžia bandwidth a posúvajú frekvenciu čo sa prejaví v menšom zarušení a vyššej spolahlivosti.
 
