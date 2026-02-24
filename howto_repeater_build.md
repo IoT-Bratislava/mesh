@@ -62,7 +62,7 @@ Všetkym repeatrom prosím uvedte približnú polohu, aby sa dali jednoducho pou
 
 Regióny slúžia na izoláciu flood prevádzky do vačších alebo menších segmentov. 
 Dnes ich možme použit napríklad na regionálne kanály, ktoré, ak sú nastavené správne, vedia držať flood prevádzku len v jednej lokalite.
-Pre hlavný slovenský región sme vybrali značku `sk`, ostatné regiony majú formát `sk-{okres}`. Zoznam skratiek okresov [najdete tu](https://lstn.juls.savba.sk/minfo/skratky-okresy). značky sú zadávané vždy malými pismenami.
+Pre hlavný slovenský región sme vybrali značku `sk`, ostatné regiony majú formát `sk-{okres}`. Pre referenciu môžťe pozrieť aj [zoznam skratiek okresov](https://lstn.juls.savba.sk/minfo/skratky-okresy). Značky sú zadávané vždy malými pismenami.
 
 Tu je príklad nastavenia regiónov na jednom z repeatrov:
 
