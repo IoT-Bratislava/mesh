@@ -84,9 +84,9 @@ Tu je jednoduchý návod ako odstrániť ID kolíziu. Na zmenu ID na repeatri je
 5. Potrvrdte novo vygenerovaný kľúč vpravo hore cez tlačidlo `✔`.
 6. Repeater sa reštartuje a pošle advert s novým kľúčom - kontakt so starým kľúčom je možné zmazat.
 
-## OTA (Aktualizácie firmware cez Bluetooth/Wifi)
+## Aktualizácie firmware cez Bluetooth/Wifi
 
-### Repeatre s čipom nRF52 (Bluetooth)
+### OTA pre nRF52 (Bluetooth)
 Medzi tieto zariadenia patrí napríklad: RAK 4631, Seeed Studio Xiao nRF52840, Sensecap Solar P1, Heltec t114...
 
 Pred tým ako sa pokúsite o vzdialenú aktualizáciu, veľmi odporúčame zmeniť bootloader na [OTAFIX(verzia 2.1 a vyssie)](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX/releases). 
@@ -111,7 +111,7 @@ Po dokončení kopírovania a zmiznutí USB disku je bootloader aktualizovaný a
 14. Počkajte na dokončenie aktualizácie. Môže to trvať niekoľko minút
 15. Po aktualizácii by sa malo zariadenie automaticky reštartovat
 
-### Repeatre s čipom ESP32
+### OTA pre ESP32 (WiFi)
 Medzi tieto zariadenia patrí napríklad: Heltec v3, v4, WSL3, Seeed Studio Xiao ESP32(s3/c3/c6..), 
 
 1.  Na [stránke flashera](https://flasher.meshcore.dev) vyberte zariadenie, ktoré chcete aktualizovať, vyberte `Repeater`, stlačte tlačidlo Download a vyberte súbor s príponou `.bin`, ktorý nemá v názve `merged`
