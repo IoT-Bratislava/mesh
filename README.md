@@ -1,8 +1,8 @@
 # 🛜 MeshCore Sieť na Slovensku / MeshCore in Slovakia
 
-## 💡 Informácie o MeshCore na Slovensku
+## Informácie o MeshCore na Slovensku
 Na Slovensku už niekoľko mesiacov komunita prevádzkuje **MeshCore** sieť, ktorá nahradila pôvodný Meshtastic.
-Na prevádzku LoRa mesh zariadení v ISM (industrial, Scientific, and Medical - celosvetovo) **nieje potrebné mať 📻 Rádioamatérsku licenciu** 👍.
+Na prevádzku LoRa mesh zariadení v ISM (industrial, Scientific, and Medical - celosvetovo) **nieje potrebné mať Rádioamatérsku licenciu**.
 
 ### Výhody MeshCore oproti Meshtasticu
 - Spoľahlivejšie doručovanie správ
@@ -28,10 +28,6 @@ Hashtag kanály sa dajú pridat v Hlavnom menu -> Add channel -> Join Hashtag ch
 - **#hungary** - Madarský národný Hashtag kanál
 - **#austria** - Rakúsky národný Hashtag kanál
 
-### 📻 📡 Odporúčané zariadenia
-[👉 Odporúčané zariadenia](./hardware.md)
-[👉 Ako na Repeater: HW/Konfiguracia/Info](./repeater.md)
-
 ### Ako prejsť na MeshCore?
 1. Pripojte vaše Meshtastic zariadenie cez USB k počítaču.
 2. Otvorte [MeshCore Flasher](https://flasher.meshcore.dev) a nahrajte **Companion radio Bluetooth firmware**.
@@ -52,6 +48,10 @@ Hashtag kanály sa dajú pridat v Hlavnom menu -> Add channel -> Join Hashtag ch
 - Adresa: Staré Grunty 53 v Mlynskej doline, bloky A/B. Je to tá budova s veľkými anténami na streche
 - Web: [https://om3kff.sk/?lang=sk](https://om3kff.sk/?lang=sk)
   <img src="https://om3kff.sk/wp-content/uploads/2013/03/mapa_pristup2_small.gif" alt="pristup" style="width:100%; height:350px; object-fit:cover;"/>
+
+### Návody
+- [Odporúčané zariadenia](./hardware.md)
+- [Ako na Repeater: HW/Konfiguracia/Info](./repeater.md)
 
 ### Ďalšie zdroje
 - Video návod (EN): [YouTube](https://www.youtube.com/watch?v=t1qne8uJBAc)
