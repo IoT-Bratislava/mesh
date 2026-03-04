@@ -1,4 +1,4 @@
-# Hardware
+# Repeatre
 ## Solárne Repeatery
 
 Ak má mať mesh sieť v meste dlhodobý zmysel, treba sa zamerať na **energetickú efektivitu** a **odolnosť voči rušeniu**. Zariadenia s **nRF52** čipsetmi (RAK dosky alebo Seeed Xiao) majú nižšiu spotrebu a tým pádom vydržia dlhšie na solárnom napájaní. Pridaním kvalitného solárneho panelu, dostatočnej batérie a dobrej antény získame repeater, ktorý funguje stabilne aj v zimných mesiacoch (kompletne bez potreby výmeny batérií).  
@@ -45,9 +45,9 @@ Neodmysliteľnou súčasťou buildov sú **filtre** – bez nich bude v mestskom
 
 ---
 
-# Konfigurácia
+## Konfigurácia
 
-## Odporúčané nastavenia
+### Odporúčané nastavenia
 
 1. Je vhodné nastaviť `Flood Advert Interval` na 23h az 48h, aby sme znížili zaťaženie siete velkými redundantnými packetmi
 2. Nastavením `Coding Rate` na `5` znížime airtime skoro na polovicu.
@@ -61,7 +61,7 @@ Neodmysliteľnou súčasťou buildov sú **filtre** – bez nich bude v mestskom
    ```
 5. Odporúčané je tiež vypnut `guest` heslo, aby užívateľ mal prístup ku štatistikám, `Neighbours` a `Owner Info`
 
-## Meno repeatra
+### Meno repeatra
 
 V Slovenskom meshi máme jednoduché názvoslovie pre všetky repeatre:
 `SK-{Okres}-{Nazov-Lokality}` kde `{Okres}` je dvojpismenny kód okresu a `{Nazov-Lokality}` moze byt čokolvek od Obce, názvu kopca, alebo iný jasný identifikátor lokality. Prosim nepoužívajte diakritiku, vzdy začnite po pomlčke velkým písmenom a nepoužívajte v názve medzery. 
@@ -73,7 +73,7 @@ Všetkym repeatrom prosím uvedte približnú polohu, aby sa dali jednoducho pou
 
 **Prosim nepoužívajte toto názvoslovie pri klientoch - matie to užívateľov**
 
-## Regióny
+### Regióny
 
 Regióny slúžia na izoláciu flood prevádzky do vačších alebo menších segmentov. 
 Dnes ich možme použit napríklad na regionálne kanály, ktoré, ak sú nastavené správne, vedia držať flood prevádzku len v jednej lokalite.
@@ -87,7 +87,7 @@ Pozor: Je dôležité aby bol povolený aj Global(`*`) región, v opačnom príp
 Tiež treba dať pozor aby bol nastavený región na kanali, až ked budú mať daný región nastavené všetky potrebné repeatre.
 Napríklad kanálu #slovakia sa ešte neodporúča nastavenie regiónu `sk`, kedže nie všetky repeatre maju regióny nakonfigurované.
 
-## Kolízie ID
+### Kolízie ID
 
 Pri prvom štarte repeatra sa často stane, že sa vygeneruje ID(prvý bajt) verejného klúča, ktorý sa už v sieti používa. Routing bude daľej fungovať, avšak sťaží to presnú identifikáciu cesty, preto sa odporúča upraviť klúč, aby používal voľné ID. 
 Tu je jednoduchý návod ako odstrániť ID kolíziu. Na zmenu ID na repeatri je potrebný aspoň firmware vo verzii 1.12.0:
