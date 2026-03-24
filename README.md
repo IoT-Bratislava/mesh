@@ -5,11 +5,11 @@ Na Slovensku už niekoľko mesiacov komunita prevádzkuje **MeshCore** sieť, kt
 Na prevádzku LoRa mesh zariadení v ISM (Industrial, Scientific, and Medical - celosvetovo) **nie je potrebné mať rádioamatérsku licenciu**.
 
 ### Frekvencia / Modulacia
-- Preset: **EU/UK (Narrow) - 869.618MHz / SF8 / BW62.5 / CR8**
+- Preset: **EU/UK (Narrow)**
 - Frequency (MHz): **869.618 MHz**
 - Bandwidth: **62.5 kHz**
 - Spreading Factor:  **8**
-- Coding Rate: **5**
+- Coding Rate: **5 (pozor - zmena oporti presetu)**
 
 ### Kanály, ktoré používame
 Keďže sme prepojení s Maďarskom a Rakúskom, Public kanál je medzinárodný kanál a každá krajina má svoj národný Hashtag kanál.
