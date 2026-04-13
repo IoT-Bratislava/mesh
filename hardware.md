@@ -1,4 +1,4 @@
-## 🔧 Odporúčané zariadenia
+## Odporúčané zariadenia
 
 Pre technológiu **MeshCore** (aj Meshtastic) sú vhodné rovnaké typy zariadení. Výber závisí od plánovaného použitia:
 
@@ -15,7 +15,7 @@ Pre technológiu **MeshCore** (aj Meshtastic) sú vhodné rovnaké typy zariaden
 
 ### Vhodné ako klient alebo Repeater
 
-**💡 Ak staviate repeater viac info nájdete aj tu:** [👉 Stavba Repeater HW/Info](./howto_repeater_build.md)   
+**💡 Ak staviate repeater viac info nájdete aj tu:** [Stavba Repeater HW/Info](./howto_repeater_build.md)   
 
 - **[Seeed Studio Xiao nRF52840 + Wio SX1262](https://www.seeedstudio.com/XIAO-nRF52840-Wio-SX1262-Kit-for-Meshtastic-p-6400.html)** \| **[aliexpress](https://www.aliexpress.com/item/1005008760784706.html)**
   - Využitie na Repeater primárne (nízka spotreba), ale aj klient
@@ -43,8 +43,8 @@ Pre technológiu **MeshCore** (aj Meshtastic) sú vhodné rovnaké typy zariaden
 
 ---
 
-📦 Zariadenia sa kupujú cez známe portály ako **Aliexpress, Amazon, RAK Wireless shop** alebo špecializované rádioamatérske obchody.  
-⚠️ Dôležité je skontrolovať **čip (napr. SX1262)** a **pásmo (868 MHz)**.
+Zariadenia sa kupujú cez známe portály ako **Aliexpress, Amazon, RAK Wireless shop** alebo špecializované rádioamatérske obchody.  
+Dôležité je skontrolovať **čip (napr. SX1262)** a **pásmo (868 MHz)**.
 
 ---
 
@@ -67,6 +67,6 @@ Pre spoľahlivý chod siete je dôležitá kvalitná anténa, prispôsobená na 
 
 V mestskom prostredí je veľa rušenia (napr. BTS základňové stanice). Použitie filtrov SAW / dutinkové(cavity) filtre pre 868 MHz pásmo výrazne [pomáha](https://pytlicek.github.io/hamradio/filters/index.html):  
 
-- [SAW filter BPF-868Mhz - odolny(Aliexpress)](https://www.aliexpress.com/item/1005007538164804.html)
+- [SAW filter BPF-868Mhz - odolny(Aliexpress)](https://www.aliexpress.com/item/1005007528774067.html) | [alternatívny predajca 1](https://www.aliexpress.com/item/1005009107800288.html) | [alternatívny predajca 2](https://www.aliexpress.com/item/1005008455588388.html)
 - [SAW filter BPF-868MHz - mensi(AliExpress)](https://www.aliexpress.com/item/1005006356979446.html)
 - [Acasom Cavity 868](https://acasom.com/products/868mhz-cavity-filter-for-helium-network-868m-saw-filter-lora-filter-hnt-filter-863m-filter-high-out-band-rejection)
