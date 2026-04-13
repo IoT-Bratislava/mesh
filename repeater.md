@@ -12,7 +12,7 @@ Neodmysliteľnou súčasťou buildov sú **filtre** – bez nich bude v mestskom
 - **Redukcia RP-SMA -> SMA:** [GOLDEN LOCH SMA - RPSMA Z/RV 50R redukcia](https://www.gme.sk/v/1500900/golden-loch-sma-rpsma-z-rv-50r-redukcia)  
 - **Filter:** [SAW BPF 868Mhz](https://www.aliexpress.com/item/1005007528774067.html) | [alternatívny predajca 1](https://www.aliexpress.com/item/1005009107800288.html) | [alternatívny predajca 2](https://www.aliexpress.com/item/1005008455588388.html)
 - **Samovulkanizačná páska:** [EMOS 19mm/10m](https://www.cbelektro.sk/izolacna-paska-samovulkanizacna-19mm-10m-cierna-emos-p264892)  
-- **Anténa:** [MikroTik Omni 868 MHz 6.5 dBi](https://www.wellnet.sk/en/mikrotik-868_omni_antenna-lora--6-5dbi--824-960mhz/)  
+- **Anténa:** [MikroTik Omni 868 MHz 6.5 dBi](https://wifi-anteny.heureka.sk/mikrotik-868-omni-antenna/)  
 
 ---
 
