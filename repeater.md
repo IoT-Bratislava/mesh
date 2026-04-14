@@ -10,7 +10,7 @@ Neodmysliteľnou súčasťou buildov sú **filtre** – bez nich bude v mestskom
 ### SenseCAP Solar Repeater
 - **Rádio + Solárny panel + Baterky:** [Seeed SenseCAP P1 Pro](https://www.seeedstudio.com/SenseCAP-Solar-Node-P1-Pro-for-Meshtastic-LoRa-p-6412.html)  
 - **Redukcia RP-SMA -> SMA:** [GOLDEN LOCH SMA - RPSMA Z/RV 50R redukcia](https://www.gme.sk/v/1500900/golden-loch-sma-rpsma-z-rv-50r-redukcia)  
-- **Filter:** [SAW BPF 868Mhz](https://www.aliexpress.com/item/1005007528774067.html) | [alternatívny predajca 1](https://www.aliexpress.com/item/1005009107800288.html) | [alternatívny predajca 2](https://www.aliexpress.com/item/1005008455588388.html)
+- **Filter:** [SAW BPF 868Mhz](https://www.aliexpress.com/item/1005007528774067.html) \| [alternatívny predajca 1](https://www.aliexpress.com/item/1005009107800288.html) \| [alternatívny predajca 2](https://www.aliexpress.com/item/1005008455588388.html)
 - **Samovulkanizačná páska:** [EMOS 19mm/10m](https://www.cbelektro.sk/izolacna-paska-samovulkanizacna-19mm-10m-cierna-emos-p264892)  
 - **Anténa:** [MikroTik Omni 868 MHz 6.5 dBi](https://wifi-anteny.heureka.sk/mikrotik-868-omni-antenna/)  
 
@@ -20,7 +20,7 @@ Neodmysliteľnou súčasťou buildov sú **filtre** – bez nich bude v mestskom
 - **Rádio:** [RAK 4631](https://www.aliexpress.com/item/1005006901039995.html)  
 - **Solárny panel:** [Soshine 6V/6W](https://www.fotoextra.cz/soshine-mini-solar-panel-6v-6w.html)  
 - **Baterka:** [Li-Pol 10000 mAh (protected)](https://techfun.sk/produkt/li-pol-bateria-kablik-ochranny-obvod/?attribute_pa_bateria=1260110-10000-mah)  
-- **Filter:** [SAW BPF 868Mhz](https://www.aliexpress.com/item/1005007528774067.html) | [alternatívny predajca 1](https://www.aliexpress.com/item/1005009107800288.html) | [alternatívny predajca 2](https://www.aliexpress.com/item/1005008455588388.html)  
+- **Filter:** [SAW BPF 868Mhz](https://www.aliexpress.com/item/1005007528774067.html) \| [alternatívny predajca 1](https://www.aliexpress.com/item/1005009107800288.html) \| [alternatívny predajca 2](https://www.aliexpress.com/item/1005008455588388.html)  
 - **Krabica:** [U-01-18](https://www.gme.sk/v/1511573/u-01-18-instalacna-krabica)  
 - **Prechodky (2x):** [M16*1.5 IP68](https://techfun.sk/produkt/prechodky-pre-kable-biele-rozne-velkosti-ip68/?attribute_pa_variant=m161-5)  
 - **Samovulkanizačná páska:** [EMOS 19mm/10m](https://www.cbelektro.sk/izolacna-paska-samovulkanizacna-19mm-10m-cierna-emos-p264892)  
