@@ -28,8 +28,8 @@ Hashtag kanály sa dajú pridať v hlavnom menu -> Add channel -> Join Hashtag c
   - [MeshCore pre iOS](https://apps.apple.com/us/app/meshcore/id6742354151)
 
 ### Diskusia, koordinácia
-1. [MeshCore Discord pozvánka](https://discord.gg/PwAMdThdXp)
-2. [Regionálny thread Slovakia](https://discord.com/channels/1343693475589263471/1345309961315680348)
+1. [MeshCore Discord pozvánka](https://meshcore.gg/)
+2. [Regionálny thread Slovakia](https://discord.com/channels/1495203904898728149/1496883898683097250)
 
 ### Stretnutia
 - **Stretávame sa každý štvrtok o 17:30** v Bratislave, Rádioklube **Omega (OM5M / OM3KFF)**.
