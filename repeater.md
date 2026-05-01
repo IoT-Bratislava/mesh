@@ -83,9 +83,8 @@ Tu je príklad nastavenia regiónov na jednom z repeatrov:
 
 <img src="img/App_Scopes.png" alt="Nastavenie regiónov" style="max-width: 100%; height: 250px"/>
 
-Pozor: Je dôležité, aby bol povolený aj Global(`*`) región, v opačnom prípade prestane repeater preposielať ne-regionálnu flood prevádzku ako adverty, flood management a flood privátne správy. Tento problém budú riešiť budúce verzie MeshCore firmware, kde bude možné vybrať predvolený región.
-Tiež treba dať pozor, aby bol nastavený región na kanáli, až keď budú mať daný región nastavené všetky potrebné repeatre.
-Napríklad kanálu #slovakia sa ešte neodporúča nastavenie regiónu `sk`, keďže nie všetky repeatre majú regióny nakonfigurované.
+Pozor: Je dôležité, aby bol povolený aj Global(`*`) región, v opačnom prípade prestane repeater preposielať ne-regionálnu flood prevádzku ako adverty, flood management a flood privátne správy. Od verzie 1.15.0 sa ale dá nastavit vychodzí región, ktory vie pracovať aj so zakázaným globalom(`*`).
+Kanálu `#slovakia` sa odporúča nastavenie regiónu `sk`, keďže vačšina repeatrov má už regióny nakonfigurované, tak isto má zmysel nastavit lokálny okresný región kanálom ako `#martin` (sk-mt), `#kosice` (sk-ke), `#bratislava` (sk-ba), atď..
 
 ### Kolízie ID
 
