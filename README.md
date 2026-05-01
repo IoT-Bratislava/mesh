@@ -22,7 +22,7 @@ Hashtag kanály sa dajú pridať v hlavnom menu -> Add channel -> Join Hashtag c
   
 ### Ako prejsť na MeshCore?
 1. Pripojte vaše [zariadenie](./hardware.md) cez USB k počítaču.
-2. Otvorte [MeshCore Flasher](https://flasher.meshcore.dev) a nahrajte **Companion radio Bluetooth firmware**.
+2. Otvorte [MeshCore Flasher](https://flasher.meshcore.io) a nahrajte **Companion radio Bluetooth firmware**.
 3. Do mobilu nainštalujte aplikáciu:
   - [MeshCore pre Android](https://play.google.com/store/apps/details?id=com.liamcottle.meshcore.android)
   - [MeshCore pre iOS](https://apps.apple.com/us/app/meshcore/id6742354151)
@@ -42,8 +42,8 @@ Hashtag kanály sa dajú pridať v hlavnom menu -> Add channel -> Join Hashtag c
 - [Ako na Repeater: HW/Konfiguracia/Info](./repeater.md)
 
 ### Ďalšie zdroje
-- Video návod (EN): [YouTube](https://www.youtube.com/watch?v=t1qne8uJBAc)
-- Živá mapa siete: [MeshCore Map](https://map.mc868.hu)
+- [Video návod (EN)](https://www.youtube.com/watch?v=iaFltojJrAc&list=PLshzThxhw4O5UniQfTVEQbaZ3tePF9iCc)
+- [Živá mapa siete](https://map.meshcore.hu)
 - [Využitie mesh sietí v A.R.E.S (Amateur Radio Emergency Service)](https://aresom.wordpress.com/lora-mesh-siete-pre-tiesnovu-komunikaciu-siete-meshtastic-a-meshcore-na-slovensku/)
-- Email Kontakt: recrof@gmail.com (predmet: *MeshCore Výzva*)
-- Užitočné odkazy: [links.md](./links.md)
+- [Email Kontakt](mailto:recrof@gmail.com?subject=MeshCore%20Výzva)
+- [Užitočné odkazy](./links.md)
