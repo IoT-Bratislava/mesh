@@ -91,7 +91,7 @@ Kanálu `#slovakia` sa odporúča nastavenie regiónu `sk`, keďže vačšina re
 Pri prvom štarte repeatra sa často stane, že sa vygeneruje ID(prvý bajt) verejného kľúča, ktorý sa už v sieti používa. Routing bude ďalej fungovať, avšak sťaží to presnú identifikáciu cesty, preto sa odporúča upraviť kľúč, aby používal voľné ID.
 Tu je jednoduchý návod ako odstrániť ID kolíziu. Na zmenu ID na repeatri je potrebný aspoň firmware vo verzii 1.12.0:
 
-1. Na [EmpireMesh stránke pre ID kolízie](https://map.mc868.hu/collision.php) je vidno všetky voľné ID zelenou farbou - jedno si vyberte.
+1. Na [EmpireMesh stránke pre ID kolízie](https://map.meshcore.hu/#/analytics) (zalozka Hash Issues) je vidno všetky voľné ID čiernou farbou - jedno si vyberte.
 2. Po prihlásení na repeater cez MeshCore App choďte do `Settings` > `Change Identity Key`.
 3. Kliknite na `Choose prefix` a zadajte voľné ID z prvého kroku a dajte `OK`.
 4. Odzálohujte si nový verejný a súkromný kľúč, keby ho v budúcnosti trebalo obnoviť.
