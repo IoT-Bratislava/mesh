@@ -49,7 +49,7 @@ Neodmysliteľnou súčasťou buildov sú **filtre** – bez nich bude v mestskom
 
 ### Odporúčané nastavenia
 
-1. Je vhodné nastaviť `Flood Advert Interval` na 23h až 48h, aby sme znížili zaťaženie siete veľkými redundantnými packetmi
+1. Je vhodné nastaviť `Flood Advert Interval` na 47h, aby sme znížili zaťaženie siete veľkými redundantnými packetmi. Rovnako je dobré nechať zero-hop advert interval na 0, kedže reálne využitie má len pri susedoch a tí sa dajú vyžiadať manuálne, keď to potrebujeme.
 2. Nastavením `Coding Rate` na `5` znížime airtime skoro na polovicu.
 3. Vyplnením `Owner Info` dáme možnosť ostatným kontaktovať majiteľa repeatra a tak možnosť spoločne koordinovať zmeny v sieti.
    Príklad:
