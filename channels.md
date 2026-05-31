@@ -2,17 +2,17 @@
 
 ## Regionálne
 Vrámci slovenského MeshCore máme zopár regionálnych kanálov.
-Prosím vždy sa snažte používat **Region scope**, aby sa správy nedostávali do celej siete(vrátane Madarska a Rakúska)
+Prosím vždy sa snažte používať **Region scope**, aby sa správy nedostávali všade(vrátane Madarska a Rakúska), spôsobuje to zníženú kvalitu siete.
 
 | Názov kanálu | Region Scope | Popis |
 | ------------ | ------------ | ----- |
-| #bratislava | sk-ba | okolie Bratislavy |
-| #kosice | sk-ke | okolie Košíc |
-| #poprad | sk-pp | okolie Popradu |
-| #prievidza | sk-pd | okolie Prievidze |
-| #turiec | sk-mt | okolie Martina, Turan a Vrútok |
-| #zilina | sk-za | okolie Žiliny |
-| #zvolen | sk-zv | okolie Zvolena |
+| #bratislava | `sk-ba` | okolie Bratislavy |
+| #kosice | `sk-ke` | okolie Košíc |
+| #poprad | `sk-pp` | okolie Popradu |
+| #prievidza | `sk-pd` | okolie Prievidze |
+| #turiec | `sk-mt` | okolie Martina, Turan a Vrútok |
+| #zilina | `sk-za` | okolie Žiliny |
+| #zvolen | `sk-zv` | okolie Zvolena |
 
 ## Ako pridať kanál
 1. Kliknite na kontextové menu **⋮** vpravo hore

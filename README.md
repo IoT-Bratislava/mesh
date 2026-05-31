@@ -11,16 +11,18 @@ Na prevádzku LoRa mesh zariadení v ISM (Industrial, Scientific, and Medical - 
 - Coding Rate: **5 (pozor - zmena oporti presetu)**
 
 ### Kanály
-Keďže sme prepojení s Maďarskom a Rakúskom, Public kanál je medzinárodný kanál a každá krajina má svoj národný Hashtag kanál.
+Keďže sme prepojení s Maďarskom a Rakúskom, Public kanál je medzinárodný kanál a každá krajina má svoj národný Hashtag kanál.<br>
+[Ako pridať kanál](/channels.html#ako-pridať-kanál)
 
 | Názov kanálu | Region Scope | Popis |
 | ------------ | ------------ | ----- |
-| Public | - |Predvolnený kanál, na ktorom komunikujeme v angličtine |
-| #slovakia | sk | Slovenský národný Hashtag kanál |
-| #hungary | - | Maďarský národný Hashtag kanál |
-| #austria | at | Rakúsky národný Hashtag kanál |
-| #alerts | - | Výstrahy počasia, búrkový radar, radiácia, zemetrasenia |
-[Ďaľsie kanály a podrobnosti](./channels.md)
+| Public |  |Predvolnený kanál, na ktorom komunikujeme v angličtine |
+| #slovakia | `sk` | Slovenský národný Hashtag kanál |
+| #hungary |  | Maďarský národný Hashtag kanál |
+| #austria | `at` | Rakúsky národný Hashtag kanál |
+| #alerts |  | Výstrahy počasia, búrkový radar, radiácia, zemetrasenia |
+| **[Viac kanálov](./channels.md)** |  |  |
+
 
 ### Ako prejsť na MeshCore
 1. Pripojte vaše [zariadenie](./hardware.md) cez USB k počítaču.
