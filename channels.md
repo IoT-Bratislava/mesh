@@ -8,10 +8,11 @@ Prosím vždy sa snažte používat **Region scope**, aby sa správy nedostával
 | ------------ | ------------ | ----- |
 | #bratislava | sk-ba | okolie Bratislavy |
 | #kosice | sk-ke | okolie Košíc |
+| #poprad | sk-pp | okolie Popradu |
+| #prievidza | sk-pd | okolie Prievidze |
 | #turiec | sk-mt | okolie Martina, Turan a Vrútok |
 | #zilina | sk-za | okolie Žiliny |
-| #prievidza | sk-pd | okolie Prievidze |
-| #poprad | sk-pp | okolie Popradu |
+| #zvolen | sk-zv | okolie Zvolena |
 
 ## Ako pridať kanál
 1. Kliknite na kontextové menu **⋮** vpravo hore
