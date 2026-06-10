@@ -11,15 +11,14 @@ Zhrnuté: **vysielací čas (airtime) je vzácny a zdieľaný zdroj.** Každá s
 
 ### Odporúčané postupy (Do)
 
-- **Scopujte svoju prevádzku.** Naša sieť siaha cez Rakúsko, Maďarsko a Slovensko a občas dosiahne aj do Poľska, Rumunska či Slovinska. Scope je „flag“, ktorý hovorí, kde je správa relevantná a ktoré repeatre ju majú opakovať. Ak píšete do kanála `#slovakia`, použite scope `sk` — vaša správa sa potom zbytočne neopakuje v Maďarsku a Rakúsku. Pri regionálnych kanáloch (napr. `#kosice`) zvoľte užší scope ako `sk-ke`, aby správa neblúdila cez pol strednej Európy.
-- **Na hľadanie okolitých uzlov použite správny nástroj.** Ak chcete zistiť, ktoré repeatre vás v okolí počujú, použite v klientovi *Tools → Discover nearby nodes*. Je to presne na to určené a nezaťažuje to celý mesh.
+- **Nastavte región regionálnym kanálom.** Naša sieť siaha cez Rakúsko, Maďarsko a Slovensko a občas dosiahne aj do Poľska, Rumunska či Slovinska. Keď nastavíte regionálnemu kanálu správny región, hovoríte sieti, kde je správa relevantná a ktoré repeatre ju majú opakovať. Ak píšete do kanála `#bratislava`, nastavte región `sk-ba` — vaša správa sa potom zbytočne neopakuje v Maďarsku a Rakúsku. Pri ostatných regionálnych kanáloch (napr. `#kosice`) zvoľte príslušný región (`sk-ke`), aby správa neblúdila cez pol strednej Európy. Postup nájdete v [zozname kanálov](https://mesh.om3kff.sk/channels.html) a v návode [Ako pridať a nastaviť región](https://mesh.om3kff.sk/channels.html#ako-prida%C5%A5-a-nastavi%C5%A5-regi%C3%B3n). (V odbornej terminológii sa nastavovanie regiónov nazýva *scopovanie*.)
+- **Na hľadanie okolitých uzlov použite správny nástroj.** Ak chcete zistiť, ktoré repeatre vás v okolí počujú, použite v klientovi *Tools → Discover nearby nodes*. Je to presne na to určené a nezaťažuje to celý mesh. Posielanie „ping“ do `#ping` alebo „test“ do `#test` namiesto toho zaťažuje celý mesh — takéto správy sa musia re-broadcastnúť cez celú sieť, hoci nikomu nič neprinášajú.
 - **Premyslite si bota pred nasadením.** Programovanie je zábava — ak však plánujete bota, zvážte jeho globálnu užitočnosť a nasadenie skonzultujte s komunitou. Spoločne nájdeme spôsob, ako prínos vyvážiť so záťažou, ktorú automatizácia kladie na sieť.
-- **Think before you type.** Nezáväzný pokec patrí ku komunite — pred odoslaním správy len krátko zvážte, akú pridanú hodnotu prináša.
 
 ### Čomu sa radšej vyhnúť (Don’t)
 
-- **Časté flood adverty.** Adverty sú zo svojej podstaty flood-scoped — šíria sa celou sieťou a všetky repeatre ich musia re-broadcastnúť. Limitujte flood adverty na nutné minimum (odporúčame raz za ~48 hodín).
-- **Request-response boti.** Vyhnite sa botom typu otázka-odpoveď (rôzne ping-boti a podobne). Vytvárajú automatizovanú záťaž, ktorá často nezodpovedá ich prínosu pre komunitu.
-- **Ne-scopované testovacie správy.** Odolajte pokušeniu posielať testovacie správy bez scope do testovacích kanálov. Musia sa re-broadcastnúť cez celý mesh a zaberajú drahocenný čas aj pásmo v oblastiach, kde nie sú relevantné.
+- **Časté flood adverty.** Adverty sú zo svojej podstaty flood-scoped — šíria sa celou sieťou a všetky repeatre ich musia re-broadcastnúť. Limitujte flood adverty na nutné minimum (odporúčame raz za ~47 hodín, čo je aj odporúčané [nastavenie repeatra](https://mesh.om3kff.sk/repeater.html#odpor%C3%BA%C4%8Dan%C3%A9-nastavenia) a default v MeshCore 1.16.0).
+- **Request-response boti.** Vyhnite sa botom typu otázka-odpoveď (rôzny ping-boti a podobne). Vytvárajú automatizovanú záťaž, ktorá často nezodpovedá ich prínosu pre komunitu.
+- **Ne-scopované testovacie správy.** Odolajte pokušeniu posielať testovacie správy bez nastaveného regiónu do testovacích kanálov. Musia sa re-broadcastnúť cez celý mesh a zaberajú drahocenný čas aj pásmo v oblastiach, kde nie sú relevantné.
 
 Vďaka, že beriete tieto odporúčania do úvahy — práve takto zostane sieť rýchla, spoľahlivá a príjemná pre všetkých. 🛜
