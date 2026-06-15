@@ -42,8 +42,7 @@ Keďže sme prepojení s Maďarskom a Rakúskom, Public kanál je medzinárodný
 - [Ako na Repeater: HW/Konfiguracia/Info](./repeater.md)
 
 ### Diskusia, koordinácia
-1. [MeshCore Discord pozvánka](https://meshcore.gg/)
-2. [Regionálny thread Slovakia](https://discord.com/channels/1495203904898728149/1496883898683097250)
+- [MeshCore-SK Discord](https://discord.gg/Zx5JuhszUb)
 
 ### Ďalšie zdroje
 - [Video návod (EN)](https://www.youtube.com/watch?v=iaFltojJrAc&list=PLshzThxhw4O5UniQfTVEQbaZ3tePF9iCc)
