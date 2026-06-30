@@ -1,5 +1,17 @@
 # Kanály
 
+Keďže sme prepojení s Maďarskom a Rakúskom, Public kanál je medzinárodný kanál a každá krajina má svoj národný Hashtag kanál.<br>
+[Ako pridať kanál](/channels.html#ako-pridať-kanál)
+
+## Hlavné
+| Názov kanálu | Region Scope | Popis |
+| ------------ | ------------ | ----- |
+| Public |  |Predvolnený kanál, na ktorom komunikujeme v angličtine |
+| #slovakia | `sk` | Slovenský národný Hashtag kanál |
+| #hungary |  | Maďarský národný Hashtag kanál |
+| #austria | `at` | Rakúsky národný Hashtag kanál |
+| #alerts |  | Výstrahy počasia, búrkový radar, radiácia, zemetrasenia |
+
 ## Regionálne
 Vrámci slovenského MeshCore máme zopár regionálnych kanálov.
 Prosím vždy sa snažte používať **Region scope**, aby sa správy nedostávali všade(vrátane Madarska a Rakúska), spôsobuje to zníženú kvalitu siete.
