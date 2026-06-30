@@ -1,9 +1,10 @@
 # Kanály
 
+
+## Hlavné
 Keďže sme prepojení s Maďarskom a Rakúskom, Public kanál je medzinárodný kanál a každá krajina má svoj národný Hashtag kanál.<br>
 [Ako pridať kanál](/channels.html#ako-pridať-kanál)
 
-## Hlavné
 | Názov kanálu | Region Scope | Popis |
 | ------------ | ------------ | ----- |
 | Public |  |Predvolnený kanál, na ktorom komunikujeme v angličtine |

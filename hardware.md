@@ -8,14 +8,14 @@ Pre technológiu **MeshCore** (aj Meshtastic) sú vhodné rovnaké typy zariaden
   - Výdrž batérie niekoľko dní
   - Vstavané GPS
 
-- **[LilyGo T-Deck Plus](https://lilygo.cc/products/t-deck-plus-1)**  
+- **[LilyGo T-Deck Plus](https://lilygo.cc/products/t-deck-plus-1)**
   - All-in-one zariadenie s klávesnicou, batériou a displejom
   - Grafické dotykové rozhranie
   - GPS a offline mapy (na microSD kartu)
 
 ### Vhodné ako klient alebo Repeater
 
-**💡 Ak staviate repeater viac info nájdete aj tu:** [Stavba Repeater HW/Info](./howto_repeater_build.md)   
+**💡 Ak staviate repeater viac info nájdete aj tu:** [Stavba Repeater HW/Info](./howto_repeater_build.md)
 
 - **[Seeed Studio Xiao nRF52840 + Wio SX1262](https://www.seeedstudio.com/XIAO-nRF52840-Wio-SX1262-Kit-for-Meshtastic-p-6400.html)** \| **[aliexpress](https://www.aliexpress.com/item/1005008760784706.html)**
   - Využitie na Repeater primárne (nízka spotreba), ale aj klient
@@ -26,7 +26,7 @@ Pre technológiu **MeshCore** (aj Meshtastic) sú vhodné rovnaké typy zariaden
 - **[RAK Wireless RAK4631 + WisBlock](https://store.rakwireless.com/products/wisblock-meshtastic-starter-kit)** \| **[aliexpress](https://www.aliexpress.com/item/1005006901039995.html)**
   - Využitie na Repeater primárne (nízka spotreba), ale aj klient
   - Modulárne riešenie s vyššou kvalitou spracovania
-  - Vyššia cena, ale aj vyššia spoľahlivosť a výdrž 
+  - Vyššia cena, ale aj vyššia spoľahlivosť a výdrž
   - Priama podpora pre solárne panely
 
 - **[Heltec V3](https://heltec.org/project/wifi-kit32-v3/)** \| **[aliexpress](https://www.aliexpress.com/item/1005005443005152.html)**
@@ -43,7 +43,7 @@ Pre technológiu **MeshCore** (aj Meshtastic) sú vhodné rovnaké typy zariaden
 
 ---
 
-Zariadenia sa kupujú cez známe portály ako **Aliexpress, Amazon, RAK Wireless shop** alebo špecializované rádioamatérske obchody.  
+Zariadenia sa kupujú cez známe portály ako **Aliexpress, Amazon, RAK Wireless shop** alebo špecializované rádioamatérske obchody.
 Dôležité je skontrolovať **čip (napr. SX1262)** a **pásmo (868 MHz)**.
 
 ---
@@ -59,14 +59,13 @@ Pre spoľahlivý chod siete je dôležitá kvalitná anténa, prispôsobená na 
 ### Vhodné na repeater
 - [MikroTik 868_Omni_antenna](https://wifi-anteny.heureka.sk/mikrotik-868-omni-antenna/)
 - [VINNANT Slovakia Y11E-868](https://vinnant.sk/store/page/1?productlist-search=&productlist-sort=created-desc&productlist-categories=868mhz-8695mhz-lorawanheliumflarmsigfox&productlist-tags=&productlist)
-- [Antenna LoRa Fiberglass 8dBi, 858-878MHz ](https://botland.store/antennas/20121-antenna-lora-fiberglass-8dbi-858-878mhz-lenght-130cm-seeedstudio-318020611-5904422362737.html)
 
 ---
 
 ## 🛡️ Filtre
 
-V mestskom prostredí je veľa rušenia (napr. BTS základňové stanice). Použitie filtrov SAW / dutinkové(cavity) filtre pre 868 MHz pásmo výrazne [pomáha](https://pytlicek.github.io/hamradio/filters/index.html):  
+V mestskom prostredí je veľa rušenia (napr. BTS základňové stanice). Použitie filtrov SAW / dutinkové(cavity) filtre pre 868 MHz pásmo výrazne [pomáha](https://pytlicek.github.io/hamradio/filters/index.html):
 
-- [SAW filter BPF-868Mhz - odolny(Aliexpress)](https://www.aliexpress.com/item/1005007528774067.html) | [alternatívny predajca 1](https://www.aliexpress.com/item/1005009107800288.html) | [alternatívny predajca 2](https://www.aliexpress.com/item/1005008455588388.html)
+- [SAW filter BPF-868Mhz - odolny(Aliexpress)](https://www.aliexpress.com/item/1005007528774067.html) \| [alternatívny predajca 1](https://www.aliexpress.com/item/1005009107800288.html) \| [alternatívny predajca 2](https://www.aliexpress.com/item/1005008455588388.html)
 - [SAW filter BPF-868MHz - mensi(AliExpress)](https://www.aliexpress.com/item/1005006356979446.html)
-- [Acasom Cavity 868](https://acasom.com/products/868mhz-cavity-filter-for-helium-network-868m-saw-filter-lora-filter-hnt-filter-863m-filter-high-out-band-rejection)
+- [Amplitec Cavity Filter 868Mhz](https://www.alibaba.com/product-detail/Amplitec-Cavity-Filter-868-MHz-For_1600555057678.html)
