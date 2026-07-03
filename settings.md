@@ -100,14 +100,14 @@ Po dokončení kopírovania a zmiznutí USB disku je bootloader aktualizovaný a
 Medzi tieto zariadenia patrí napríklad: Heltec v3, v4, WSL3, Seeed Studio Xiao ESP32(s3/c3/c6..),
 
 1.  Na [stránke flashera](https://flasher.meshcore.dev) vyberte zariadenie, ktoré chcete aktualizovať, vyberte `Repeater`, stlačte tlačidlo Download a vyberte súbor s príponou `.bin`, ktorý nemá v názve `merged`
-3. V aplikácii MeshCore sa prihláste do repeatera, ktorý chcete aktualizovať
-4. Prejdite na záložku `Command Line`, napíšte: `start ota` a potvrďte
-5. Mali by ste vidieť odpoveď OK, ktorá potvrdzuje, že zariadenie je teraz v OTA režime. Ak neprišla žiadna odpoveď, pošlite príkaz `start ota` znova
-6. Skopírujte si odpoveď repeatra - obsahuje webovú adresu
-7. Pripojte sa na novo vytvorenú WiFi sieť s názvom `MeshCore-OTA`.
-8. Otvorte prehliadač a zadajte webovú adresu z kroku č.6
-9. V rámci formulára kliknite na výber súboru a nájdite stiahnutý súbor z kroku č.1 a potvrďte.
-10. Po aktualizácii by sa malo zariadenie automaticky reštartovať
+2. V aplikácii MeshCore sa prihláste do repeatera, ktorý chcete aktualizovať
+3. Prejdite na záložku `Command Line`, napíšte: `start ota` a potvrďte
+4. Mali by ste vidieť odpoveď OK, ktorá potvrdzuje, že zariadenie je teraz v OTA režime. Ak neprišla žiadna odpoveď, pošlite príkaz `start ota` znova
+5. Skopírujte si odpoveď repeatra - obsahuje webovú adresu
+6. Pripojte sa na novo vytvorenú WiFi sieť s názvom `MeshCore-OTA`.
+7. Otvorte prehliadač a zadajte webovú adresu z kroku č.4
+8. V rámci formulára kliknite na výber súboru a nájdite stiahnutý súbor z kroku č.1 a potvrďte.
+9. Po aktualizácii by sa malo zariadenie automaticky reštartovať
 
 ## Plánovanie – Pokrytie – Pomôcky
 
