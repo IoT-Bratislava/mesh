@@ -6,20 +6,28 @@
 - Spreading Factor(SF):  **8**
 - Coding Rate(CR): **5 (pozor - zmena oporti presetu)**
 
+
 ## Klienti
 K nastaveniam sa dostanete cez ozubené koliesko v hlavnom menu
-- Nastavenia kontaktov
+
+### Meno
+- Akékolvek unikátne meno, nepoužívajte prosím formát **SK-XX-Xxxx**, ktorý je vyhradený pre opakovače
+
+### Nastavenia kontaktov
   - Vyberte 'Automaticky pridať vybrané'
   - Nechajte len 'Automaticky pridávať používatelov', ostatné Automatické pridávania vypnite
   - Zapnite 'Prepísať najstarší'
-- Nastavenie správ
-  - Nastavte 'Potvrdenia priamych správ' na 2
-- Experimentálne nastavenia
-  - Nastavte 'Veľkosť hashu trasy' na '2 bajtový'
-Nezabudnite si nastavit aj [regionálne kanály](./channels.md)
 
-## Repeatre
-Vačšinu nastavení si môžete zmeniť hneď po naflashovaní repeatra cez USB na https://config.meshcore.io
+### Nastavenie správ
+  - Nastavte 'Potvrdenia priamych správ' na 2
+
+### Experimentálne nastavenia
+  - Nastavte 'Veľkosť hashu trasy' na '2 bajtový'
+
+Odporúčame pozrieť aj [Nastavenia kanálov](./channels.md)
+
+## Repeatre / Opakovače
+Vačšinu nastavení si môžete zmeniť hneď po naflashovaní repeatra cez USB na https://config.meshcore.io, alebo neskôr po prihlásení k opakovaču pomocou companiona cez aplikáciu.
 1. Je vhodné nastaviť `Flood Advert Interval` na 47h, aby sme znížili zaťaženie siete veľkými redundantnými packetmi. Rovnako je dobré nechať zero-hop advert interval na 0, kedže reálne využitie má len pri susedoch a tí sa dajú vyžiadať manuálne, keď to potrebujeme.
 2. Nastavením `Coding Rate` na `5` znížime airtime skoro na polovicu.
 3. Vyplnením `Owner Info` dáme možnosť ostatným kontaktovať majiteľa repeatra a tak možnosť spoločne koordinovať zmeny v sieti.
