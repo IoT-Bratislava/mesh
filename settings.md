@@ -27,7 +27,7 @@ K nastaveniam sa dostanete cez ozubené koliesko v hlavnom menu
 Odporúčame pozrieť aj [Nastavenia kanálov](./channels.md)
 
 ## Repeatre / Opakovače
-Vačšinu nastavení si môžete zmeniť hneď po naflashovaní repeatra cez USB na https://config.meshcore.io, alebo neskôr po prihlásení k opakovaču pomocou companiona cez aplikáciu.
+Vačšinu nastavení si môžete zmeniť hneď po naflashovaní repeatra cez USB na [https://config.meshcore.io](https://config.meshcore.io), alebo neskôr po prihlásení k opakovaču pomocou companiona cez aplikáciu.
 1. Je vhodné nastaviť `Flood Advert Interval` na 47h, aby sme znížili zaťaženie siete veľkými redundantnými packetmi. Rovnako je dobré nechať zero-hop advert interval na 0, kedže reálne využitie má len pri susedoch a tí sa dajú vyžiadať manuálne, keď to potrebujeme.
 2. Nastavením `Coding Rate` na `5` znížime airtime skoro na polovicu.
 3. Vyplnením `Owner Info` dáme možnosť ostatným kontaktovať majiteľa repeatra a tak možnosť spoločne koordinovať zmeny v sieti.
@@ -39,6 +39,7 @@ Vačšinu nastavení si môžete zmeniť hneď po naflashovaní repeatra cez USB
    https://mesh.om3kff.sk/
    ```
 5. Odporúčané je tiež vypnúť `guest` heslo, aby užívateľ mal prístup ku štatistikám, `Neighbours` a `Owner Info`
+6. v `Show advanced settings` odporúčame nastavit `Loop detection` na `Minimal`, `Path hash mode` na `2 byte (1)` a zvoliť `Multi ACKs`.
 
 ### Meno repeatra
 
