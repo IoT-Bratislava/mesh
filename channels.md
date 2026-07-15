@@ -1,9 +1,9 @@
 # Kanály
 
+Nižšie je zoznam kanálov, ktoré ak máte nainštalovanú oficiálnu MeshCore aplikáciu, si môžeťe pridať kliknutím na názov kanálu - pozor, funguje len na Androide a Apple iOS/macOS. Kanály si môžte [pridať aj manálne](#ako-pridať-kanál).
 
 ## Hlavné
 Keďže sme prepojení s Maďarskom a Rakúskom, Public kanál je medzinárodný kanál a každá krajina má svoj národný Hashtag kanál.<br>
-[Ako pridať kanál](/channels.html#ako-pridať-kanál)
 
 | Názov kanálu | Region Scope | Popis |
 | ------------ | ------------ | ----- |
