@@ -8,10 +8,10 @@ Keďže sme prepojení s Maďarskom a Rakúskom, Public kanál je medzinárodný
 | Názov kanálu | Region Scope | Popis |
 | ------------ | ------------ | ----- |
 | Public |  |Predvolnený kanál, na ktorom komunikujeme v angličtine |
-| #slovakia | `sk` | Slovenský národný Hashtag kanál |
-| #hungary |  | Maďarský národný Hashtag kanál |
-| #austria | `at` | Rakúsky národný Hashtag kanál |
-| #alerts |  | Výstrahy počasia, búrkový radar, radiácia, zemetrasenia |
+| [#slovakia](meshcore://channel/add?name=#slovakia&secret=550b8a9546d5618310074fdba0368f98&region_scope=sk) | `sk` | Slovenský národný Hashtag kanál |
+| [#hungary](meshcore://channel/add?name=#hungary&secret=d2ad7e4009b727fb4ee5c1ff51694e5e) |  | Maďarský národný Hashtag kanál |
+| [#austria](meshcore://channel/add?name=#austria&secret=faaa5ef01081222e319a8205357321f4&region_scope=at) | `at` | Rakúsky národný Hashtag kanál |
+| [#alerts](meshcore://channel/add?name=#alerts&secret=b8212240d8b433b54db46906738e2094) |  | Výstrahy počasia, búrkový radar, radiácia, zemetrasenia |
 
 ## Regionálne
 Vrámci slovenského MeshCore máme zopár regionálnych kanálov.
@@ -19,7 +19,7 @@ Prosím vždy sa snažte používať **Region scope**, aby sa správy nedostáva
 
 | Názov kanálu | Region Scope | Popis |
 | ------------ | ------------ | ----- |
-| #bratislava | `sk-ba` | okolie Bratislavy |
+| [#bratislava](meshcore://channel/add?name=#bratislava&secret=fa08b2ba25a58f75108e7cec3c27f944&region_scope=sk-ba) | `sk-ba` | okolie Bratislavy |
 | #kosice | `sk-ke` | okolie Košíc |
 | #poprad | `sk-pp` | okolie Popradu |
 | #prievidza | `sk-pd` | okolie Prievidze |
