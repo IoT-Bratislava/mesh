@@ -8,10 +8,10 @@ Keďže sme prepojení s Maďarskom a Rakúskom, Public kanál je medzinárodný
 | Názov kanálu | Region Scope | Popis |
 | ------------ | ------------ | ----- |
 | Public |  |Predvolnený kanál, na ktorom komunikujeme v angličtine |
-| [#slovakia](meshcore://channel/add?name=#slovakia&secret=550b8a9546d5618310074fdba0368f98&region_scope=sk) | `sk` | Slovenský národný Hashtag kanál |
-| [#hungary](meshcore://channel/add?name=#hungary&secret=d2ad7e4009b727fb4ee5c1ff51694e5e) |  | Maďarský národný Hashtag kanál |
-| [#austria](meshcore://channel/add?name=#austria&secret=faaa5ef01081222e319a8205357321f4&region_scope=at) | `at` | Rakúsky národný Hashtag kanál |
-| [#alerts](meshcore://channel/add?name=#alerts&secret=b8212240d8b433b54db46906738e2094) |  | Výstrahy počasia, búrkový radar, radiácia, zemetrasenia |
+| [#slovakia](meshcore://channel/add?name=%23slovakia&secret=550b8a9546d5618310074fdba0368f98&region_scope=sk) | `sk` | Slovenský národný Hashtag kanál |
+| [#hungary](meshcore://channel/add?name=%23hungary&secret=d2ad7e4009b727fb4ee5c1ff51694e5e) |  | Maďarský národný Hashtag kanál |
+| [#austria](meshcore://channel/add?name=%23austria&secret=faaa5ef01081222e319a8205357321f4&region_scope=at) | `at` | Rakúsky národný Hashtag kanál |
+| [#alerts](meshcore://channel/add?name=%23alerts&secret=b8212240d8b433b54db46906738e2094) |  | Výstrahy počasia, búrkový radar, radiácia, zemetrasenia |
 
 ## Regionálne
 Vrámci slovenského MeshCore máme zopár regionálnych kanálov.
@@ -19,13 +19,14 @@ Prosím vždy sa snažte používať **Region scope**, aby sa správy nedostáva
 
 | Názov kanálu | Region Scope | Popis |
 | ------------ | ------------ | ----- |
-| [#bratislava](meshcore://channel/add?name=#bratislava&secret=fa08b2ba25a58f75108e7cec3c27f944&region_scope=sk-ba) | `sk-ba` | okolie Bratislavy |
-| #kosice | `sk-ke` | okolie Košíc |
-| #poprad | `sk-pp` | okolie Popradu |
-| #prievidza | `sk-pd` | okolie Prievidze |
-| #turiec | `sk-mt` | okolie Martina, Turan a Vrútok |
-| #zilina | `sk-za` | okolie Žiliny |
-| #zvolen | `sk-zv` | okolie Zvolena |
+| [#bratislava](meshcore://channel/add?name=%23bratislava&secret=fa08b2ba25a58f75108e7cec3c27f944&region_scope=sk-ba) | `sk-ba` | okolie Bratislavy |
+| [#kosice](meshcore://channel/add?name=%23kosice&secret=550b8a9546d5618310074fdba0368f98&region_scope=sk-ke) | `sk-ke` | okolie Košíc |
+| [#poprad](meshcore://channel/add?name=%23poprad&secret=8bcfea927e837f4bbc0c17031ab4bd4d&region_scope=sk-pp) | `sk-pp` | okolie Popradu |
+| [#prievidza](meshcore://channel/add?name=%23prievidzaa&secret=c63c40c157b3f6f498624524a941100d&region_scope=sk-pp) | `sk-pd` | okolie Prievidze |
+| [#turiec](meshcore://channel/add?name=%23turiec&secret=c19b2a23d9c49201910b3db165a803ec&region_scope=sk-pp) | `sk-mt` | okolie Martina, Turan a Vrútok |
+| [#vychod](meshcore://channel/add?name=%23vychod&secret=2e5054c23fbcfac902fccf55253e927e&region_scope=sk-vychod) | `sk-vychod` | celé Východné Slovensko |
+| [#zilina](meshcore://channel/add?name=%23zilina&secret=c735b6afbb20891dc1a2183e0341f697&region_scope=sk-pp) | `sk-za` | okolie Žiliny |
+| [#zvolen](meshcore://channel/add?name=%23zvolen&secret=c2e221166bc0186e06d2418a1b68168c&region_scope=sk-pp) | `sk-zv` | okolie Zvolena |
 
 ## Ako pridať kanál
 1. Kliknite na kontextové menu **⋮** vpravo hore
