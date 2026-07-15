@@ -2,7 +2,7 @@
 
 Pre technológiu **MeshCore** (aj Meshtastic) sú vhodné rovnaké typy zariadení. Výber závisí od plánovaného použitia:
 
-### Vhodné ako klient (Companion Radio Ble)
+### Vhodné ako klient
 - **[Seeed Studio Wio L1 Tracker](https://www.seeedstudio.com/Wio-Tracker-L1-Pro-p-6454.html)** \| **[aliexpress](https://www.aliexpress.com/item/1005009580365375.html)**
   - Kompaktné rozmery
   - Výdrž batérie niekoľko dní
@@ -13,10 +13,16 @@ Pre technológiu **MeshCore** (aj Meshtastic) sú vhodné rovnaké typy zariaden
   - Grafické dotykové rozhranie
   - GPS a offline mapy (na microSD kartu)
 
-### Vhodné ako klient alebo Repeater
+### Vhodné na repeater
+- **[Seeed Studio SenseCap Solar Node P1 Pro](https://www.seeedstudio.com/SenseCAP-Solar-Node-P1-Pro-for-Meshtastic-LoRa-p-6412.html)**
+  - Plne vodotesný obal, vhodný do exteriéru
+  - Vstavaný 5W solárny panel
+  - Slot na 4 Li-Ion články (volitelná verzia vrátane 18650 článkov + GPS)
+  - sada na pripevnenie ku stĺpu alebo konzole
 
 **💡 Ak staviate repeater viac info nájdete aj tu:** [Stavba Repeater HW/Info](./howto_repeater_build.md)
 
+### Vhodné ako klient alebo Repeater
 - **[Seeed Studio Xiao nRF52840 + Wio SX1262](https://www.seeedstudio.com/XIAO-nRF52840-Wio-SX1262-Kit-for-Meshtastic-p-6400.html)** \| **[aliexpress](https://www.aliexpress.com/item/1005008760784706.html)**
   - Využitie na Repeater primárne (nízka spotreba), ale aj klient
   - Malé rozmery (s batériou a anténou sa zmestí do krabičky od TicTac)
@@ -34,16 +40,9 @@ Pre technológiu **MeshCore** (aj Meshtastic) sú vhodné rovnaké typy zariaden
   - Ideálne pre repeatery alebo statické inštalácie
   - Podpora WiFi
 
-### Vhodné na repeater
-- **[Seeed Studio SenseCap Solar Node P1 Pro](https://www.seeedstudio.com/SenseCAP-Solar-Node-P1-Pro-for-Meshtastic-LoRa-p-6412.html)**
-  - Plne vodotesný obal, vhodný do exteriéru
-  - Vstavaný 5W solárny panel
-  - Slot na 4 Li-Ion články (volitelná verzia vrátane 18650 článkov + GPS)
-  - sada na pripevnenie ku stĺpu alebo konzole
-
 ---
 
-Zariadenia sa kupujú cez známe portály ako **Aliexpress, Amazon, RAK Wireless shop** alebo špecializované rádioamatérske obchody.
+Zariadenia sa kupujú cez známe portály ako **[Aliexpress](https://www.aliexpress.com), [Seeed Studio](https://www.seeedstudio.com/eu_warehouse), [RAK Wireless shop](https://store.rakwireless.com/), [Amazon](https://amazon.de)** alebo špecializované rádioamatérske obchody.
 Dôležité je skontrolovať **čip (napr. SX1262)** a **pásmo (868 MHz)**.
 
 ---
