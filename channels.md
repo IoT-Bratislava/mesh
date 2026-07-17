@@ -1,6 +1,6 @@
 # Kanály
 
-Nižšie je zoznam kanálov, ktoré ak máte nainštalovanú oficiálnu MeshCore aplikáciu, si môžete pridať kliknutím na názov kanálu - pozor, funguje len na Androide a Apple iOS/macOS. Kanály si môžte [pridať aj manuálne](#ako-pridať-kanál). **Prosím myslite na to, že keď posielate správu na kanál, mimo nastavený region, správa sa nedoručí - opakovače vo vašom okolí daný región musia poznať.**
+Nižšie je zoznam kanálov, ktoré ak máte nainštalovanú oficiálnu MeshCore aplikáciu, si môžete pridať kliknutím na názov kanálu - pozor, funguje len na Androide a Apple iOS/macOS. Kanály si môžete [pridať aj manuálne](#ako-pridať-kanál). **Prosím myslite na to, že keď posielate správu na kanál, mimo nastavený region, správa sa nedoručí - opakovače vo vašom okolí daný región musia poznať.**
 
 ## Hlavné
 Keďže sme prepojení s Maďarskom a Rakúskom, Public kanál je medzinárodný kanál a každá krajina má svoj národný Hashtag kanál.<br>
