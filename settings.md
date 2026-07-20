@@ -21,6 +21,7 @@ K nastaveniam sa dostanete cez ozubené koliesko v hlavnom menu
 ### Nastavenie správ
   - Nastavte 'Potvrdenia priamych správ' na 2
   - Povoľte 'Zobraziť skoky správ kanála' a 'Zobraziť veľkosti hashov cesty správ kanála'
+
 ### Experimentálne nastavenia
   - Nastavte 'Veľkosť hashu trasy' na '2 bajtový'
 
