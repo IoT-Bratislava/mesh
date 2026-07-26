@@ -1,11 +1,17 @@
 # Odporúčané nastavenia
 
-- Preset: **EU/UK (Narrow)**
+<div style="border-left: 4px solid #d29922; background: #fff8e6; padding: 12px 16px; border-radius: 4px;">
+  <span style="font-size: large; font-weight: 800">⚠️ Upozornenie</span><br>
+  V dňoch od <strong>25.8.2026</strong> do <strong>10.9.2026</strong> prebieha test upravených rádio nastavení.<br>
+
+- Preset: **Netherlands**
 - Frekvencia (MHz): **869.618 MHz**
 - Šírka pásma: **62.5 kHz**
-- Spreading Factor(SF):  **8**
-- Coding Rate(CR): **5 (pozor - zmena oporti presetu)**
+- Spreading Factor(SF):  **7**
+- Coding Rate(CR): **5**
 
+Viac k téme sa dočítate na našom Discorde - kanál [#migracie](https://discord.com/channels/1456042561016692843/1516150102035529869)
+</div>
 
 ## Klienti
 K nastaveniam sa dostanete cez ozubené koliesko v hlavnom menu
