@@ -1,16 +1,26 @@
 # MeshCore Sieť na Slovensku 🇸🇰
 
 <div style="border-left: 4px solid #d29922; background: #fff8e6; padding: 12px 16px; border-radius: 4px;">
-  <span style="font-size: large; font-weight: 800">⚠️ Upozornenie</span><br>
-  V dňoch od <strong>25.8.2026</strong> do <strong>10.9.2026</strong> prebieha test upravených rádio nastavení.<br>
+  <h2>⚠️ Upozornenie</h2>
+  V dňoch od <strong>25.7.2026</strong> do <strong>10.8.2026</strong> prebieha test upravených rádio nastaveni nekompatibilných s doterajšími a <strong>je potrebné preladiť všetky zariadenia</strong>.<br>
 
-- Preset: **Netherlands**
-- Frekvencia (MHz): **869.618 MHz**
-- Šírka pásma: **62.5 kHz**
-- Spreading Factor(SF):  **7**
-- Coding Rate(CR): **5**
+  <ul>
+    <li>Preset: <strong>Netherlands</strong></li>
+    <li>Frekvencia (MHz): <strong>869.618 MHz</strong></li>
+    <li>Šírka pásma: <strong>62.5 kHz</strong></li>
+    <li>Spreading Factor(SF):  <strong>7</strong></li>
+    <li>Coding Rate(CR): <strong>5</strong></li>
+  </ul>
 
-Viac k téme sa dočítate na našom Discorde - kanál [#migracie](https://discord.com/channels/1456042561016692843/1516150102035529869)
+  <h3>Ak máte repeater</h3>
+  <span>Môžete použiť príkaz v príkazovom riadku:</span><br>
+  <code>set radio 869.618,62.5,7,5</code><br>
+  <span>a potom</span><br>
+  <code>reboot</code><br>
+  <span>dalej prosím <a href="https://docs.google.com/spreadsheets/d/1YoGlBNesV491CifETy-dg088rg9RRBDwJvzPoMUT2YQ/edit">zapíšte svoj repeater do hárku.</a></span>
+  <br>
+  <span>Viac k téme sa dočítate na našom Discorde - kanál <a href="https://discord.com/channels/1456042561016692843/1516150102035529869">#migracie</a></span>
+
 </div>
 
 ## Základné informácie
