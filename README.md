@@ -2,10 +2,10 @@
 
 <div style="border-left: 4px solid #d29922; background: #fff8e6; padding: 12px 16px; border-radius: 4px;">
   <h2>⚠️ Upozornenie</h2>
-  V dňoch od <strong>25.7.2026</strong> do <strong>10.8.2026</strong> prebieha test upravených rádio nastaveni nekompatibilných s doterajšími a <strong>je potrebné preladiť všetky zariadenia</strong>.<br>
+  Od <strong>8.8.2026</strong> prešla sieť na nové nastavenia nekompatibilné s doterajšími a <strong>je potrebné preladiť všetky zariadenia</strong>.<br>
 
   <ul>
-    <li>Preset: <strong>Netherlands</strong></li>
+    <li>Preset: <strong>Slovakia</strong></li>
     <li>Frekvencia (MHz): <strong>869.618 MHz</strong></li>
     <li>Šírka pásma: <strong>62.5 kHz</strong></li>
     <li>Spreading Factor(SF):  <strong>7</strong></li>
