@@ -9,7 +9,7 @@ Keďže sme prepojení s Maďarskom a Rakúskom, Public kanál je medzinárodný
 | ------------ | ------------ | ----- |
 | Public |  |Predvolnený kanál, na ktorom komunikujeme v angličtine |
 | [#slovakia](meshcore://channel/add?name=%23slovakia&secret=550b8a9546d5618310074fdba0368f98&region_scope=sk) | `sk` | Slovenský národný Hashtag kanál |
-| [#hungary](meshcore://channel/add?name=%23hungary&secret=d2ad7e4009b727fb4ee5c1ff51694e5e) |  | Maďarský národný Hashtag kanál |
+| [#hungary](meshcore://channel/add?name=%23hungary&secret=d2ad7e4009b727fb4ee5c1ff51694e5e&region_scope=hu) | `hu` | Maďarský národný Hashtag kanál |
 | [#austria](meshcore://channel/add?name=%23austria&secret=faaa5ef01081222e319a8205357321f4&region_scope=at) | `at` | Rakúsky národný Hashtag kanál |
 | [#alerts](meshcore://channel/add?name=%23alerts&secret=b8212240d8b433b54db46906738e2094) |  | Výstrahy počasia, búrkový radar, radiácia, zemetrasenia |
 
