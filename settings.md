@@ -17,10 +17,6 @@
   <code>set radio 869.618,62.5,7,5</code><br>
   <span>a potom</span><br>
   <code>reboot</code><br>
-  <span>dalej prosím <a href="https://docs.google.com/spreadsheets/d/1YoGlBNesV491CifETy-dg088rg9RRBDwJvzPoMUT2YQ/edit">zapíšte svoj repeater do hárku.</a></span>
-  <br>
-  <span>Viac k téme sa dočítate na našom Discorde - kanál <a href="https://discord.com/channels/1456042561016692843/1516150102035529869">#migracie</a></span>
-
 </div>
 
 ## Klienti
@@ -40,7 +36,7 @@ K nastaveniam sa dostanete cez ozubené koliesko v hlavnom menu
 
 ### Experimentálne nastavenia
   - Nastavte 'Veľkosť hashu trasy' na '2 bajtový'
-
+  - POZOR: Vo verzii MeshCore aplikácie 1.49 sa nastavuje 'Veľkosť hashu trasy' v Nastavení siete
 Odporúčame pozrieť aj [Nastavenia kanálov](./channels.md)
 
 ## Repeatre / Opakovače
