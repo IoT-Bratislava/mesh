@@ -60,9 +60,9 @@ Adverty sú dvojaké: **[flood advert](./glossary.md#flood-advert "Advert, ktor�
 
 Slovenská sieť je prepojená s Maďarskom a Rakúskom. Bolo by zbytočné plytvanie [vysielacieho času](./glossary.md#airtime "Ako dlho zariadenie fyzicky obsadzuje éter jedným paketom - zdieľaný a vzácny zdroj"), ak by sa správa z košického kanála opakovala až vo Viedni. Preto má MeshCore **[regióny (angl. region scope)](./glossary.md#region "Nálepka na flood prevádzke, ktorá určuje, kde je správa relevantná")**: flood pakety dostanú nálepku, napr. `sk-ke`, a preposielajú ich len repeatre, ktoré majú tento región nastavený. Týka sa to nielen správ, ale aj advertov.
 
-**Častý omyl: región nie je adresa.** Nehovorí, *kam* sa má správa doručiť - hovorí len, *ktoré repeatre ju smú preposlať*. Nie je to tunel do Bratislavy ani nič, čo by správu niekam prenieslo.
+**Častý omyl: región nie je adresa.** Nehovorí, *kam* sa má správa doručiť - hovorí len, *ktoré repeatre ju smú preposlať*. Nie je to tunel, ani nič, čo by správu niekam prenieslo.
 
-Predstavte si, že ste v Košiciach a napíšete do kanála `#bratislava` s regiónom `sk-ba`. Váš paket dostane nálepku `sk-ba` - lenže repeatre okolo Košíc majú nastavené `sk-ke` a `sk`, nie `sk-ba`. Takže ho nikto nepreposiela ďalej a správa neprejde ani k prvému susedovi. To isté platí opačne: odpovede z Bratislavy nesú tú istú nálepku, takže ich košické repeatre nepreposielajú a vy ich nikdy nezačujete - aj keby ste kanál mali otvorený.
+Predstavte si, že ste v Košiciach a napíšete do kanála `#bratislava` s regiónom `sk-ba`. Váš paket dostane nálepku `sk-ba` - lenže repeatre okolo Košíc majú nastavené `sk-ke` a `sk`, nie `sk-ba`. Takže ho nikto nepreposiela ďalej a správa neprejde ani jeden hop. To isté platí opačne: odpovede z Bratislavy nesú tú istú nálepku, takže ich košické repeatre nepreposielajú a vy ich nikdy nedostanete.
 
 Z toho vyplýva jednoduché pravidlo:
 
@@ -81,7 +81,7 @@ Návod na nastavenie regiónov nájdete v [zozname kanálov](./channels.md#ako-p
 - **Núdzová komunikácia** - keď vypadne prúd, mobilná sieť alebo internet.
 - **Miesta bez signálu** - hory, chaty, jaskyne, terénne akcie.
 - **Hobby a experiment** - rádiá, antény, solár, dosah. Pre mnohých je to hlavné lákadlo.
-- **Komunita** - lokálne kanály, na ktorých sa dá jednoducho ozvať susedom v regióne.
+- **Komunita** - veľká komunita rádio, IoT a IT nadšencov.
 
 ## Čo MeshCore nie je
 
@@ -90,8 +90,8 @@ Aby nevznikli falošné očakávania:
 - **Nie je to náhrada internetu.** Žiadny web, žiadne fotky, žiadne volanie.
 - **Nie je to telemetrická sieť.** Každé pravidelné automatizované vysielanie telemetrie spôsobuje postupné zahltenie [vysielacieho času](./glossary.md#airtime "Ako dlho zariadenie fyzicky obsadzuje éter jedným paketom - zdieľaný a vzácny zdroj"), ktorý zdieľajú všetci. Na priebežné meranie teplôt, GPS trackery a pod. je vhodnejší LoRaWAN alebo vlastná neverejná sieť na inej frekvencii.
 - **Nie je to rýchle.** Správa môže cestovať aj niekoľko sekúnd, hlavne cez viac skokov.
-- **Nie je to garantovaná služba.** Sieť je zadarmo, stavia komunita vo voľnom čase, repeatre občas vypadnú.
-- **Nie je to anonymná sieť.** Obsah je síce šifrovaný, ale vaše zariadenie sa v éteri ohlasuje svojím menom a kľúčom a dá sa čiastočne vystopovať podľa zaznamenaných ciest
+- **Nie je to garantovaná služba.** Sieť je zadarmo, stavia ju komunita vo voľnom čase, repeatre občas vypadnú.
+- **Nie je to anonymná sieť.** Obsah je síce šifrovaný, ale vaše zariadenie sa v éteri ohlasuje svojím menom a kľúčom a dá sa čiastočne vystopovať podľa zaznamenaných ciest.
 
 ---
 

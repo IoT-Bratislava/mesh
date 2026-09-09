@@ -18,7 +18,7 @@ Sieť bez centra, v ktorej si zariadenia správy navzájom preposielajú. Nemá 
 Akékoľvek zariadenie v sieti - klient, repeater aj room server.
 
 **MeshCore**
-Firmware (softvér v rádiu) + aplikácie, ktoré túto sieť tvoria. Open source, licencia MIT, autor Scott Powell (Ripple Radios).
+Sieť a Firmware (softvér v rádiu) + aplikácie, ktoré túto sieť tvoria.
 
 <a id="meshtastic"></a>**Meshtastic**
 Starší a rozšírenejší konkurenčný projekt na rovnakom hardvéri. Hlavný rozdiel: v Meshtastic preposiela správy každé zariadenie, v MeshCore len repeatre. Zariadenie môže bežať buď na jednom, alebo na druhom - nie na oboch naraz.
@@ -120,7 +120,7 @@ Skupinová konverzácia. Každý, kto má kľúč kanála, ho vidí a môže do�
 **Public**
 Predvolený kanál, ktorý má každý. U nás je medzinárodný a komunikuje sa na ňom po anglicky.
 
-**Hashtag kanál**
+<a id="hashtag-kanal"></a>**Hashtag kanál**
 Kanál, ktorého kľúč sa odvodí priamo z jeho názvu (napr. `#slovakia`). Netreba si nikde vymieňať heslá - stačí zadať rovnaký názov. [Zoznam kanálov](./channels.md)
 
 **Secret / Kľúč kanála**
@@ -149,7 +149,7 @@ Množstvo pridanej korekcie chýb. Nižšie CR = kratší vysielací čas, vyš�
 Uložená kombinácia frekvencie, šírky pásma, SF a CR. Naša sieť používa preset **Slovakia**. Všetky štyri hodnoty musia sedieť, inak sa nedopíšete. [Odporúčané nastavenia](./settings.md)
 
 <a id="airtime"></a>**Airtime / Vysielací čas**
-Ako dlho zariadenie fyzicky obsadzuje éter jedným paketom. Je to zdieľaný a vzácny zdroj - preto všetky odporúčania na jeho šetrenie. [meshtiquette](./meshtiquette.md)
+Ako dlho zariadenie fyzicky obsadzuje éter jedným paketom. Je to zdieľaný a vzácny zdroj - preto všetky odporúčania na jeho šetrenie nájdete na stránke [meshtiquette](./meshtiquette.md)
 
 <a id="snr"></a>**SNR**
 Odstup signálu od šumu v dB. Hovorí, o koľko je prijatý signál silnejší než šum na pozadí. Čím vyššie, tým lepšie - a špecialita LoRa je, že prijíma aj hlboko pod úrovňou šumu, teda pri záporných hodnotách. Orientačne pri našom nastavení (SF 7):
@@ -167,7 +167,7 @@ Koľko z vyžiareného výkonu anténa „sústredí“ do požadovaného smeru.
 **Line of Sight / Priama viditeľnosť**
 Nič neprekáža medzi dvoma anténami. Pre LoRa na 868 MHz je to kľúčové - kopec alebo panelák dokáže spojenie zabiť. V aplikácii je na to nástroj *Tools → Line of Sight*.
 
-**SAW / cavity filter**
+<a id="filter"></a>**SAW / cavity filter**
 Rádiový filter, ktorý prepustí len pásmo 868 MHz a odreže rušenie od okolitých vysielačov (napr. mobilných BTS). V meste prakticky povinná výbava repeatra. [Odporúčané filtre](./hardware.md)
 
 **SDR**
