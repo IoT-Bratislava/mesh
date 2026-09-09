@@ -46,11 +46,14 @@ Bežný užívateľ siete, teda zariadenie s firmvérom Companion. V praxi sa sl
 Zariadenie, ktoré len počúva a preposiela správy ďalej - typicky na streche, kopci alebo stožiari, často na solárnom paneli. Repeatre sú jediné, čo v MeshCore preposiela prevádzku, takže tvoria kostru siete. [Ako postaviť repeater](./repeater.md)
 
 <a id="room-server"></a>**Room Server**
-Niečo ako nástenka s pamäťou: uchová správy pre užívateľov, ktorí neboli online, a tí si ich vyzdvihnú neskôr (podobne ako e-mail). Bežný kanál nič neuchováva - kto v tom momente nepočúval, správu už nezíská.
+Niečo ako nástenka s pamäťou: uchová správy pre užívateľov, ktorí neboli online, a tí si ich vyzdvihnú neskôr (podobne ako e-mail). Bežný kanál nič neuchováva - ak používateľ nemá zapnuté rádio v momente ako správa posiela vrámci siete, správu neskôr nedostane.
 
 ---
 
 ## Sieť a smerovanie
+
+<a id="packet"></a>**Paket / Packet**
+Základná jednotka, ktorú rádio vysiela do éteru. **Nie každý paket je správa** - paketom je aj advert, potvrdenie (ACK), hľadanie cesty, telemetria či príkaz repeatru. Väčšina prevádzky v sieti sú práve takéto servisné pakety, nie text od ľudí. Repeatre preposielajú pakety, nie správy - preto sa všetko, čo sieť zaťažuje, počíta v paketoch a vysielacom čase. Do jedného paketu sa zmestí len obmedzené množstvo dát (rádovo stovky bajtov).
 
 <a id="advert"></a>**Advert**
 „Vizitka“, ktorú zariadenie občas vyšle do siete - obsahuje meno, verejný kľúč a prípadne polohu. Vďaka advertom sa vám v aplikácii objavujú kontakty.
@@ -146,7 +149,7 @@ Množstvo pridanej korekcie chýb. Nižšie CR = kratší vysielací čas, vyš�
 Uložená kombinácia frekvencie, šírky pásma, SF a CR. Naša sieť používa preset **Slovakia**. Všetky štyri hodnoty musia sedieť, inak sa nedopíšete. [Odporúčané nastavenia](./settings.md)
 
 <a id="airtime"></a>**Airtime / Vysielací čas**
-Ako dlho zariadenie fyzicky obsadzuje éter jednou správou. Je to zdieľaný a vzácny zdroj - preto všetky odporúčania na jeho šetrenie. [meshtiquette](./meshtiquette.md)
+Ako dlho zariadenie fyzicky obsadzuje éter jedným paketom. Je to zdieľaný a vzácny zdroj - preto všetky odporúčania na jeho šetrenie. [meshtiquette](./meshtiquette.md)
 
 <a id="snr"></a>**SNR**
 Odstup signálu od šumu v dB. Hovorí, o koľko je prijatý signál silnejší než šum na pozadí. Čím vyššie, tým lepšie - a špecialita LoRa je, že prijíma aj hlboko pod úrovňou šumu, teda pri záporných hodnotách. Orientačne pri našom nastavení (SF 7):

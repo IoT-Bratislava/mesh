@@ -26,7 +26,7 @@
 ## Základné informácie
 - Siet MeshCore bola primárne budovaná na núdzovú textovú komunikáciu
 - Je určená pre všetkých, na prevádzku LoRa mesh zariadení v ISM pásme **nie je potrebné mať rádioamatérsku licenciu**.
-- Prosím prečítajte si ,,[meshtiquette](./meshtiquette.md)'', kde rozoberáme technologické limity siete a odporúčame ako sieť používať efektívne
+- Ak ste tu prvý krát, prosím prečítajte si [Úvod do MeshCore](./about.md) a [Slovník pojmov](./glossary.md)
 
 ### Ako prejsť na MeshCore
 1. Pripojte vaše [zariadenie](./hardware.md) cez USB k počítaču.
