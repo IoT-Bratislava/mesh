@@ -20,7 +20,7 @@ Pre technológiu **MeshCore** (aj Meshtastic) sú vhodné rovnaké typy zariaden
   - Slot na 4 Li-Ion články (volitelná verzia vrátane 18650 článkov + GPS)
   - sada na pripevnenie ku stĺpu alebo konzole
 
-**💡 Ak staviate repeater viac info nájdete aj tu:** [Stavba Repeater HW/Info](./howto_repeater_build.md)
+** Ak staviate repeater viac info nájdete aj tu:** [Stavba Repeater HW/Info](./howto_repeater_build.md)
 
 ### Vhodné ako klient alebo Repeater
 - **[Seeed Studio Xiao nRF52840 + Wio SX1262](https://www.seeedstudio.com/XIAO-nRF52840-Wio-SX1262-Kit-for-Meshtastic-p-6400.html)** \| **[aliexpress](https://www.aliexpress.com/item/1005008760784706.html)**
@@ -47,7 +47,7 @@ Dôležité je skontrolovať **čip (napr. SX1262)** a **pásmo (868 MHz)**.
 
 ---
 
-## 📡 Antény
+## Antény
 
 Pre spoľahlivý chod siete je dôležitá kvalitná anténa, prispôsobená na pásmo 868 MHz:
 
@@ -61,7 +61,7 @@ Pre spoľahlivý chod siete je dôležitá kvalitná anténa, prispôsobená na 
 
 ---
 
-## 🛡️ Filtre
+## Filtre
 
 V mestskom prostredí je veľa rušenia (napr. BTS základňové stanice). Použitie filtrov SAW / dutinkové(cavity) filtre pre 868 MHz pásmo výrazne [pomáha](https://pytlicek.github.io/hamradio/filters/index.html):
 
