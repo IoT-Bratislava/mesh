@@ -1,23 +1,16 @@
 # Odporúčané nastavenia
 
-<div style="border-left: 4px solid #d29922; background: #fff8e6; padding: 12px 16px; border-radius: 4px;">
-  <h2>⚠️ Upozornenie</h2>
-  Od <strong>8.8.2026</strong> prešla sieť na nové nastavenia nekompatibilné s doterajšími a <strong>je potrebné preladiť všetky zariadenia</strong>.<br>
-
-  <ul>
-    <li>Preset: <strong>Slovakia</strong></li>
-    <li>Frekvencia (MHz): <strong>869.618 MHz</strong></li>
-    <li>Šírka pásma: <strong>62.5 kHz</strong></li>
-    <li>Spreading Factor(SF):  <strong>7</strong></li>
-    <li>Coding Rate(CR): <strong>5</strong></li>
-  </ul>
-
-  <h3>Ak máte repeater</h3>
-  <span>Môžete použiť príkaz v príkazovom riadku:</span><br>
-  <code>set radio 869.618,62.5,7,5</code><br>
-  <span>a potom</span><br>
-  <code>reboot</code><br>
-</div>
+> [!WARNING] 
+> Od **8.8.2026** prešla sieť na nové nastavenia nekompatibilné s doterajšími a **je potrebné preladiť všetky zariadenia**.
+> - Preset: **Slovakia**
+> - Šírka pásma: **62.5 kHz**
+> - Spreading Factor(SF): **7**
+> - Coding Rate(CR): **5**
+> ### Ak máte repeater
+> Môžete použiť príkaz v príkazovom riadku:
+> `set radio 869.618,62.5,7,5`
+> a potom
+> `reboot`
 
 ## Klienti
 K nastaveniam sa dostanete cez ozubené koliesko v hlavnom menu
@@ -41,8 +34,8 @@ Odporúčame pozrieť aj [Nastavenia kanálov](./channels.md)
 
 ## Repeatre / Opakovače
 Vačšinu nastavení si môžete zmeniť hneď po naflashovaní repeatra cez USB na [https://config.meshcore.io](https://config.meshcore.io), alebo neskôr po prihlásení k opakovaču pomocou companiona cez aplikáciu.
-1. Je vhodné nastaviť `Flood Advert Interval` na 47h, aby sme znížili zaťaženie siete veľkými redundantnými packetmi. Rovnako je dobré nechať zero-hop advert interval na 0, kedže reálne využitie má len pri susedoch a tí sa dajú vyžiadať manuálne, keď to potrebujeme.
-2. Nastavením `Coding Rate` na `5` znížime airtime skoro na polovicu.
+1. Je vhodné nechať `Flood Advert Interval` na `47h`, aby sme znížili zaťaženie siete veľkými redundantnými packetmi.
+2. Rovnako je dobré nechať `Zero-hop Advert Interval` na `0`, kedže reálne využitie má len pri susedoch a tí sa dajú vyžiadať manuálne, keď to potrebujeme.
 3. Vyplnením `Owner Info` dáme možnosť ostatným kontaktovať majiteľa repeatra a tak možnosť spoločne koordinovať zmeny v sieti.
    Príklad:
    ```
@@ -51,8 +44,8 @@ Vačšinu nastavení si môžete zmeniť hneď po naflashovaní repeatra cez USB
    Part of EmpireMesh
    https://mesh.om3kff.sk/
    ```
-5. Odporúčané je tiež vypnúť `guest` heslo, aby užívateľ mal prístup ku štatistikám, `Neighbours` a `Owner Info`
-6. v `Show advanced settings` odporúčame nastavit `Loop detection` na `Minimal`, `Path hash mode` na `2 byte (1)` a zvoliť `Multi ACKs`.
+4. Odporúčané je tiež **nechať nevyplnené** `guest` heslo, aby sme mali prístup ku štatistikám, `Neighbours` a `Owner Info`
+5. v `Show advanced settings` odporúčame nastavit `Loop detection` na `Minimal`, `Path hash mode` na `2 byte (1)` a zvoliť `Multi ACKs`.
 
 ### Meno repeatra
 
