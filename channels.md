@@ -21,7 +21,9 @@ Prosím vždy sa snažte používať **Region scope**, aby sa správy nedostáva
 | ------------ | ------------ | ----- |
 | [#bratislava](meshcore://channel/add?name=%23bratislava&secret=fa08b2ba25a58f75108e7cec3c27f944&region_scope=sk-ba) | `sk-ba` | okolie Bratislavy |
 | [#kosice](meshcore://channel/add?name=%23kosice&secret=550b8a9546d5618310074fdba0368f98&region_scope=sk-ke) | `sk-ke` | okolie Košíc |
+| [#nitra](meshcore://channel/add?name=%23nitra&secret=10ac920f87329b36b8348ac637d06c68&region_scope=sk-nr) | `sk-nr` | okolie Nitry |
 | [#poprad](meshcore://channel/add?name=%23poprad&secret=8bcfea927e837f4bbc0c17031ab4bd4d&region_scope=sk-pp) | `sk-pp` | okolie Popradu |
+| [#presov](meshcore://channel/add?name=%23presov&secret=36249182b91546cc32a881f7266b6ac6&region_scope=sk-po) | `sk-po` | okolie Prešova |
 | [#prievidza](meshcore://channel/add?name=%23prievidza&secret=c63c40c157b3f6f498624524a941100d&region_scope=sk-pd) | `sk-pd` | okolie Prievidze |
 | [#turiec](meshcore://channel/add?name=%23turiec&secret=c19b2a23d9c49201910b3db165a803ec&region_scope=sk-mt) | `sk-mt` | okolie Martina, Turan a Vrútok |
 | [#vychod](meshcore://channel/add?name=%23vychod&secret=2e5054c23fbcfac902fccf55253e927e&region_scope=sk-vychod) | `sk-vychod` | celé Východné Slovensko |
