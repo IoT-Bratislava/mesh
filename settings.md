@@ -1,17 +1,5 @@
 # Odporúčané nastavenia
 
-> [!WARNING] 
-> Od **8.8.2026** prešla sieť na nové nastavenia nekompatibilné s doterajšími a **je potrebné preladiť všetky zariadenia**.
-> - Preset: **Slovakia**
-> - Šírka pásma: **62.5 kHz**
-> - Spreading Factor(SF): **7**
-> - Coding Rate(CR): **5**
-> ### Ak máte repeater
-> Môžete použiť príkaz v príkazovom riadku:
-> `set radio 869.618,62.5,7,5`
-> a potom
-> `reboot`
-
 ## Klienti
 K nastaveniam sa dostanete cez ozubené koliesko v hlavnom menu
 
@@ -64,12 +52,13 @@ Všetkým repeatrom prosím uvedte približnú polohu, aby sa dali jednoducho po
 Regióny slúžia na izoláciu flood prevádzky do väčších alebo menších segmentov.
 Dnes ich môžeme použiť napríklad na regionálne kanály, ktoré, ak sú nastavené správne, vedia držať flood prevádzku len v jednej lokalite.
 Pre hlavný slovenský región sme vybrali značku `sk`, ostatné regióny majú formát `sk-{okres}`. Pre referenciu môžete pozrieť aj [zoznam skratiek okresov](https://lstn.juls.savba.sk/minfo/skratky-okresy). Značky sú zadávané vždy malými písmenami.
+Pribudol aj nový odporúčaný región `cs`, ktorý umožňuje komunikáciu s českou sieťou pomocou mostov medzi sieťami, ak ho nenastavíte, uživatelia vášho repeatra nebudú vedieť posielat súkromné správy do Česka.
 
 Tu je príklad nastavenia regiónov na jednom z repeatrov:
 
 <img src="img/App_Scopes.png" alt="Nastavenie regiónov" style="max-width: 100%; height: 250px"/>
 
-Pozor: Je dôležité, aby bol povolený aj Global(`*`) región, v opačnom prípade prestane repeater preposielať ne-regionálnu flood prevádzku ako adverty, flood management a flood privátne správy. Od verzie 1.15.0 sa ale dá nastavit vychodzí región, ktory vie pracovať aj so zakázaným globalom(`*`).
+Pozor: Je dôležité, aby bol povolený aj Global(`*`) región, v opačnom prípade prestane repeater preposielať neregionálnu flood prevádzku ako adverty, flood management a flood privátne správy. Od verzie 1.15.0 sa ale dá nastavit vychodzí región, ktory vie pracovať aj so zakázaným globalom(`*`).
 Kanálu `#slovakia` sa odporúča nastavenie regiónu `sk`, keďže vačšina repeatrov má už regióny nakonfigurované, tak isto má zmysel nastavit lokálny okresný región kanálom ako `#martin` (sk-mt), `#kosice` (sk-ke), `#bratislava` (sk-ba), atď..
 
 ### Kolízie ID
