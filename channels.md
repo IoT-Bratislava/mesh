@@ -17,6 +17,14 @@ Keďže sme prepojení s Maďarskom a Rakúskom, Public kanál je medzinárodný
 Vrámci slovenského MeshCore máme zopár regionálnych kanálov.
 Prosím vždy sa snažte používať **Region scope**, aby sa správy nedostávali všade(vrátane Madarska a Rakúska), spôsobuje to zníženú kvalitu siete.
 
+### Oblasti
+| Názov kanálu | Region Scope | Popis |
+| ------------ | ------------ | ----- |
+| [#stred](meshcore://channel/add?name=%23stred&secret=f3b7ca96c6abdbc40ba35919be034315&region_scope=sk-stred) | `sk-stred` | celé Stredné Slovensko |
+| [#vychod](meshcore://channel/add?name=%23vychod&secret=2e5054c23fbcfac902fccf55253e927e&region_scope=sk-vychod) | `sk-vychod` | celé Východné Slovensko |
+| [#zapad](meshcore://channel/add?name=%23zapad&secret=709f9b62b2c640045c6c2d873fde8c0b&region_scope=sk-zapad) | `sk-zapad` | celé Západné Slovensko |
+
+### Okresné
 | Názov kanálu | Region Scope | Popis |
 | ------------ | ------------ | ----- |
 | [#bratislava](meshcore://channel/add?name=%23bratislava&secret=fa08b2ba25a58f75108e7cec3c27f944&region_scope=sk-ba) | `sk-ba` | okolie Bratislavy |
@@ -26,7 +34,6 @@ Prosím vždy sa snažte používať **Region scope**, aby sa správy nedostáva
 | [#presov](meshcore://channel/add?name=%23presov&secret=36249182b91546cc32a881f7266b6ac6&region_scope=sk-po) | `sk-po` | okolie Prešova |
 | [#prievidza](meshcore://channel/add?name=%23prievidza&secret=c63c40c157b3f6f498624524a941100d&region_scope=sk-pd) | `sk-pd` | okolie Prievidze |
 | [#turiec](meshcore://channel/add?name=%23turiec&secret=c19b2a23d9c49201910b3db165a803ec&region_scope=sk-mt) | `sk-mt` | okolie Martina, Turan a Vrútok |
-| [#vychod](meshcore://channel/add?name=%23vychod&secret=2e5054c23fbcfac902fccf55253e927e&region_scope=sk-vychod) | `sk-vychod` | celé Východné Slovensko |
 | [#zilina](meshcore://channel/add?name=%23zilina&secret=c735b6afbb20891dc1a2183e0341f697&region_scope=sk-za) | `sk-za` | okolie Žiliny |
 | [#zvolen](meshcore://channel/add?name=%23zvolen&secret=c2e221166bc0186e06d2418a1b68168c&region_scope=sk-zv) | `sk-zv` | okolie Zvolena |
 

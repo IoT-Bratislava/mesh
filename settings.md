@@ -52,11 +52,11 @@ Všetkým repeatrom prosím uvedte približnú polohu, aby sa dali jednoducho po
 Regióny slúžia na izoláciu flood prevádzky do väčších alebo menších segmentov.
 Dnes ich môžeme použiť napríklad na regionálne kanály, ktoré, ak sú nastavené správne, vedia držať flood prevádzku len v jednej lokalite.
 Pre hlavný slovenský región sme vybrali značku `sk`, ostatné regióny majú formát `sk-{okres}`. Pre referenciu môžete pozrieť aj [zoznam skratiek okresov](https://lstn.juls.savba.sk/minfo/skratky-okresy). Značky sú zadávané vždy malými písmenami.
-Pribudol aj nový odporúčaný región `cs`, ktorý umožňuje komunikáciu s českou sieťou pomocou mostov medzi sieťami, ak ho nenastavíte, uživatelia vášho repeatra nebudú vedieť posielat súkromné správy do Česka. [Viac infromacií o cs regióne](./region_cs.md).
+Pribudol aj nový odporúčaný región `cs`, ktorý umožňuje komunikáciu s českou sieťou pomocou mostov medzi sieťami, ak ho nenastavíte, uživatelia vášho repeatra nebudú vedieť posielat súkromné správy do Česka. [Viac infromacií o `cs` regióne](./region_cs.md). Ďalej odporúčame pridať `sk-zapad`, `sk-stred`, alebo `sk-vychod` podľa polohy repeatra - používaju ich kanály `#zapad`, `#stred` a `#vychod`
 
 Tu je príklad nastavenia regiónov na jednom z repeatrov:
 
-<img src="img/App_Scopes.png" alt="Nastavenie regiónov" style="max-width: 100%; height: 250px"/>
+<img src="img/App_Scopes.png" alt="Nastavenie regiónov" style="max-width: 100%; max-height: 300px"/>
 
 Pozor: Je dôležité, aby bol povolený aj Global(`*`) región, v opačnom prípade prestane repeater preposielať neregionálnu flood prevádzku ako adverty, flood management a flood privátne správy. Od verzie 1.15.0 sa ale dá nastavit vychodzí región, ktory vie pracovať aj so zakázaným globalom(`*`).
 Kanálu `#slovakia` sa odporúča nastavenie regiónu `sk`, keďže vačšina repeatrov má už regióny nakonfigurované, tak isto má zmysel nastavit lokálny okresný región kanálom ako `#martin` (sk-mt), `#kosice` (sk-ke), `#bratislava` (sk-ba), atď..
@@ -120,18 +120,18 @@ Sú to:
 
 - **Line of Sight** – výškogram medzi dvoma bodmi na mape – vidíte, či vám nezavadzia hora alebo iná prekážka.
 - **Map Coverage** – pokrytie priamou vlnou oblasti, kde si prajete mať repeater.
-- **Neighbors** (v menu repeatera) – ak už máte repeater, funkcia vám ukáže susedné repeatre, ktoré váš repeater počuje, vrátane sily signálu(SNR). Noví susedia sa pridajú vtedy, keď váš repeater začuje od suseda priamy advert.
+- **Neighbors** (v menu repeatera) – ak už máte repeater, funkcia vám ukáže susedné repeatre, ktoré váš repeater počuje, vrátane sily signálu(SNR). Noví susedia sa pridajú vtedy, keď váš repeater začuje od suseda priamy advert, alebo aj manuálne cez kontextové menu
 
 <table style="width:100%; border-collapse:collapse; text-align:center;">
   <tr>
     <td style="width:32%; padding:5px;">
-      <img src="img/App_LineOfSight.jpg" alt="App: Line of Sight" style="width:100%; height:350px; object-fit:cover;"/>
+      <img src="img/App_LineOfSight.jpg" alt="App: Line of Sight" style="width:100%; max-height:350px; object-fit:cover;"/>
     </td>
     <td style="width:32%; padding:5px;">
-      <img src="img/App_AntCoverage.jpg" alt="App: Antenna Coverage" style="width:100%; height:350px; object-fit:cover;"/>
+      <img src="img/App_AntCoverage.jpg" alt="App: Antenna Coverage" style="width:100%; max-height:350px; object-fit:cover;"/>
     </td>
     <td style="width:32%; padding:5px;">
-      <img src="img/App_Neighbours.jpg" alt="App: Neighbours" style="width:100%; height:350px; object-fit:cover;"/>
+      <img src="img/App_Neighbours.jpg" alt="App: Neighbours" style="width:100%; max-height:350px; object-fit:cover;"/>
     </td>
   </tr>
   <tr>
