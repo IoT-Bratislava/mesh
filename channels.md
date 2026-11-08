@@ -18,6 +18,7 @@ Vrámci slovenského MeshCore máme zopár regionálnych kanálov.
 Prosím vždy sa snažte používať **Region scope**, aby sa správy nedostávali všade(vrátane Madarska a Rakúska), spôsobuje to zníženú kvalitu siete.
 
 ### Oblasti
+
 | Názov kanálu | Region Scope | Popis |
 | ------------ | ------------ | ----- |
 | [#stred](meshcore://channel/add?name=%23stred&secret=f3b7ca96c6abdbc40ba35919be034315&region_scope=sk-stred) | `sk-stred` | celé Stredné Slovensko |
@@ -25,6 +26,7 @@ Prosím vždy sa snažte používať **Region scope**, aby sa správy nedostáva
 | [#zapad](meshcore://channel/add?name=%23zapad&secret=709f9b62b2c640045c6c2d873fde8c0b&region_scope=sk-zapad) | `sk-zapad` | celé Západné Slovensko |
 
 ### Okresné
+
 | Názov kanálu | Region Scope | Popis |
 | ------------ | ------------ | ----- |
 | [#bratislava](meshcore://channel/add?name=%23bratislava&secret=fa08b2ba25a58f75108e7cec3c27f944&region_scope=sk-ba) | `sk-ba` | okolie Bratislavy |
