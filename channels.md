@@ -30,7 +30,7 @@ Prosím vždy sa snažte používať **Region scope**, aby sa správy nedostáva
 | Názov kanálu | Region Scope | Popis |
 | ------------ | ------------ | ----- |
 | [#bratislava](meshcore://channel/add?name=%23bratislava&secret=fa08b2ba25a58f75108e7cec3c27f944&region_scope=sk-ba) | `sk-ba` | okolie Bratislavy |
-| [#kosice](meshcore://channel/add?name=%23kosice&secret=550b8a9546d5618310074fdba0368f98&region_scope=sk-ke) | `sk-ke` | okolie Košíc |
+| [#kosice](meshcore://channel/add?name=%23kosice&secret=dda3eeb41b7cc592dab6a2da4c38545d&region_scope=sk-ke) | `sk-ke` | okolie Košíc |
 | [#nitra](meshcore://channel/add?name=%23nitra&secret=10ac920f87329b36b8348ac637d06c68&region_scope=sk-nr) | `sk-nr` | okolie Nitry |
 | [#poprad](meshcore://channel/add?name=%23poprad&secret=8bcfea927e837f4bbc0c17031ab4bd4d&region_scope=sk-pp) | `sk-pp` | okolie Popradu |
 | [#presov](meshcore://channel/add?name=%23presov&secret=36249182b91546cc32a881f7266b6ac6&region_scope=sk-po) | `sk-po` | okolie Prešova |
